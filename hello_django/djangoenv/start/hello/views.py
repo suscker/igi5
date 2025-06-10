@@ -17,6 +17,8 @@ from django.conf import settings
 from django.db.models import Count
 from .models import Order 
 from datetime import date, timedelta
+from django.core.exceptions import PermissionDenied
+from functools import wraps
 logging.basicConfig(level=logging.INFO, filename="my_log.log",filemode="a",format="%(asctime)s %(levelname)s %(message)s")
 
 def stats(request):
@@ -122,7 +124,7 @@ import collections
 import matplotlib.pyplot as plt
 from django.conf import settings
 from django.shortcuts import render
-from .models import Client, Order  # Импортируй свои модели
+from .models import Client, Order 
 
 def statisticsv(request):
     clients = Client.objects.all()
@@ -352,11 +354,27 @@ def register(request):
     
     
 
+def require_auth(view_func):
+    @wraps(view_func)
+    def wrapper(request, *args, **kwargs):
+        # Проверяем, авторизован ли пользователь
+        if 'user_id' not in request.session or 'user_type' not in request.session:
+            return redirect('login')
+            
+        # Получаем ID пользователя из URL
+        user_id = kwargs.get('master_id') or kwargs.get('client_id')
+        user_type = 'master' if 'master_id' in kwargs else 'client'
+        
+        # Проверяем, соответствует ли тип пользователя и ID
+        if request.session['user_type'] != user_type or str(request.session['user_id']) != str(user_id):
+            raise PermissionDenied("You don't have permission to access this page")
+            
+        return view_func(request, *args, **kwargs)
+    return wrapper
+
+@require_auth
 def mastersview(request, master_id):
     mast = Master.objects.get(id = master_id)
-    request.session['user_type'] = 'master'
-    request.session['user_id'] = mast.pk
-    request.session['user_name'] = mast.name
     clients_id = ClientMaster.objects.filter(master = mast)
     clients = set(cm.client for cm in clients_id)
     return render(request, "master.html", {
@@ -367,11 +385,9 @@ def mastersview(request, master_id):
         "clients": clients
     })
 
+@require_auth
 def clientsview(request, client_id):
     client = Client.objects.get(id = client_id)
-    request.session['user_type'] = 'client'
-    request.session['user_id'] = client.pk
-    request.session['user_name'] = client.name
     return render(request, "client.html", {
         "client": client, 
         "client_id" : client_id, 
@@ -382,6 +398,7 @@ def clientsview(request, client_id):
     })
 
 
+@require_auth
 def editmaster(request, master_id):
     mast = Master.objects.get(id=master_id)
     error = None
@@ -407,15 +424,17 @@ def editmaster(request, master_id):
         return redirect('master', master_id=master_id)
     return render(request, "editmaster.html", {"master": mast, "specs": Specialization.objects.all(), "error": error})
 
+@require_auth
 def editclient(request, client_id):
     client = Client.objects.get(id=client_id)
+    error = None
     if request.method == "POST":
         tname = request.POST.get("name")
         tage = request.POST.get("age")
         tphone_code = request.POST.get("phone_code")
         tphone_number = request.POST.get("phone_number")
-        tmodel = request.POST.get("model_car")
-        ttype = request.POST.get("type_car")
+        tcar_model = request.POST.get("car_model")
+        tcar_type = request.POST.get("car_type")
         photo_file = request.FILES.get("photo")
 
         if tname:
@@ -424,18 +443,18 @@ def editclient(request, client_id):
             client.age = tage
         if tphone_code and tphone_number:
             client.phone_number = f"+375 ({tphone_code}) {tphone_number}"
-        if tmodel:
-            client.car_model_id = tmodel
-        if ttype:
-            client.car_type_id = ttype
+        if tcar_model:
+            client.car_model_id = tcar_model
+        if tcar_type:
+            client.car_type_id = tcar_type
         if photo_file:
             client.photo = photo_file
         client.save()
         return redirect('client', client_id=client_id)
-    else:
-        return render(request, "editclient.html", {"client": client, "car_models": CarModel.objects.all(), "car_types": CarType.objects.all()})
+    return render(request, "editclient.html", {"client": client, "car_models": CarModel.objects.all(), "car_types": CarType.objects.all(), "error": error})
     
 
+@require_auth
 def createorder(request, client_id):
     client = Client.objects.get(id = client_id)
     if request.method == "POST":
@@ -472,42 +491,42 @@ def createorder(request, client_id):
                                                    "parts" : Part.objects.filter(car_model = client.car_model)})
     
 
+@require_auth
 def createreview(request, client_id):
-    user = Client.objects.get(id = client_id)
+    client = Client.objects.get(id=client_id)
     if request.method == "POST":
-        ttext = request.POST.get("text")
-        trating = request.POST.get("rating")
-        new_review = Review()
-        new_review.user = user
-        new_review.text = ttext
-        new_review.rating = int(trating)
-        new_review.save()
-        return redirect('client',client_id = user.pk)
-    else:
-        return render(request,"createreview.html")
-    
-def editreview(request, client_id, review_id):
-    user = Client.objects.get(id = client_id)
-    review = Review.objects.get(id = review_id)
-    if request.method == "POST":
-        ttext = request.POST.get("text")
-        trating = request.POST.get("rating")
+        review = Review()
+        review.user = client
+        review.text = request.POST.get("text")
+        review.rating = request.POST.get("rating")
+        review.date = datetime.datetime.now()
+        review.save()
+        return redirect('client', client_id=client_id)
+    return render(request, "createreview.html", {"client_id": client_id})
 
-        Review.objects.filter(id = review_id).update(text = ttext)
-        Review.objects.filter(id = review_id).update(rating = int(trating))
-        return redirect('client',client_id = user.pk)
-    else:
-        return render(request,"editreview.html", {"review" : review})
-    
-def deletereview(request, client_id, review_id):
-    user = Client.objects.get(id = client_id)
-    review = Review.objects.get(id = review_id)
+@require_auth
+def editreview(request, client_id, review_id):
+    client = Client.objects.get(id=client_id)
+    review = Review.objects.get(id=review_id)
+    if review.user != client:
+        raise PermissionDenied("You can only edit your own reviews")
+        
     if request.method == "POST":
-        review.delete()
-        return redirect('client',client_id = user.pk)
-    else:
-        return render(request,"deletereview.html", {"review" : review})
-    
+        review.text = request.POST.get("text")
+        review.rating = request.POST.get("rating")
+        review.save()
+        return redirect('client', client_id=client_id)
+    return render(request, "editreview.html", {"review": review, "client_id": client_id})
+
+@require_auth
+def deletereview(request, client_id, review_id):
+    client = Client.objects.get(id=client_id)
+    review = Review.objects.get(id=review_id)
+    if review.user != client:
+        raise PermissionDenied("You can only delete your own reviews")
+        
+    review.delete()
+    return redirect('client', client_id=client_id)
 
 def recreate_articles_with_cats():
     from hello.models import Article
@@ -524,7 +543,8 @@ def recreate_articles_with_cats():
         logging.info(f"{article.title} is saved.")
 
 def logout(request):
+    # Очищаем все данные сессии
     request.session.flush()
-    return redirect('/')
+    return redirect('main')
 
     

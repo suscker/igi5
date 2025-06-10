@@ -2080,3 +2080,149 @@ django.db.utils.OperationalError: no such column: hello_article.img_url
 2025-06-10 12:41:01,977 INFO Client Myname2 added.
 2025-06-10 12:41:10,349 INFO Random Cat Fact - 2025-06-10 12:41:10.341042 is saved.
 2025-06-10 12:41:11,673 INFO Random Cat Fact - 2025-06-10 12:41:11.668395 is saved.
+2025-06-10 12:44:56,437 INFO C:\Users\nob22\Desktop\LR5\hello_django\djangoenv\start\hello\views.py changed, reloading.
+2025-06-10 13:00:21,309 INFO Random Cat Fact - 2025-06-10 13:00:21.302834 is saved.
+2025-06-10 13:01:30,299 INFO Random Cat Fact - 2025-06-10 13:01:30.285459 is saved.
+2025-06-10 13:01:42,209 INFO Master nameee added.
+2025-06-10 13:02:01,975 INFO Client Myname2 added.
+2025-06-10 13:02:19,242 INFO Random Cat Fact - 2025-06-10 13:02:19.232688 is saved.
+2025-06-10 13:02:22,234 INFO Random Cat Fact - 2025-06-10 13:02:22.220274 is saved.
+2025-06-10 13:03:36,074 INFO Random Cat Fact - 2025-06-10 13:03:36.065419 is saved.
+2025-06-10 13:15:48,390 INFO Random Cat Fact - 2025-06-10 13:15:48.385148 is saved.
+2025-06-10 13:16:15,054 INFO Client Myname2 added.
+2025-06-10 13:16:47,108 INFO Random Cat Fact - 2025-06-10 13:16:47.103470 is saved.
+2025-06-10 13:17:18,545 INFO Random Cat Fact - 2025-06-10 13:17:18.539948 is saved.
+2025-06-10 13:18:12,355 INFO C:\Users\nob22\Desktop\LR5\hello_django\djangoenv\start\hello\views.py changed, reloading.
+2025-06-10 13:18:48,492 INFO C:\Users\nob22\Desktop\LR5\hello_django\djangoenv\start\hello\views.py changed, reloading.
+2025-06-10 13:18:59,644 INFO Random Cat Fact - 2025-06-10 13:18:59.521510 is saved.
+2025-06-10 13:19:17,785 INFO C:\Users\nob22\Desktop\LR5\hello_django\djangoenv\start\hello\views.py changed, reloading.
+2025-06-10 13:19:39,427 INFO C:\Users\nob22\Desktop\LR5\hello_django\djangoenv\start\hello\views.py changed, reloading.
+2025-06-10 13:19:42,707 INFO Random Cat Fact - 2025-06-10 13:19:42.699968 is saved.
+2025-06-10 13:20:49,434 INFO Client Myname2 added.
+2025-06-10 13:20:54,688 WARNING Forbidden (Permission denied): /login/client/5
+Traceback (most recent call last):
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\nob22\Desktop\LR5\hello_django\djangoenv\start\hello\views.py", line 370, in wrapper
+    raise PermissionDenied("You don't have permission to access this page")
+django.core.exceptions.PermissionDenied: You don't have permission to access this page
+2025-06-10 13:20:58,757 WARNING Forbidden (Permission denied): /login/client/7
+Traceback (most recent call last):
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\nob22\Desktop\LR5\hello_django\djangoenv\start\hello\views.py", line 370, in wrapper
+    raise PermissionDenied("You don't have permission to access this page")
+django.core.exceptions.PermissionDenied: You don't have permission to access this page
+2025-06-10 13:21:06,336 WARNING Forbidden (Permission denied): /login/master/1
+Traceback (most recent call last):
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\nob22\Desktop\LR5\hello_django\djangoenv\start\hello\views.py", line 370, in wrapper
+    raise PermissionDenied("You don't have permission to access this page")
+django.core.exceptions.PermissionDenied: You don't have permission to access this page
+2025-06-10 13:21:10,557 INFO Random Cat Fact - 2025-06-10 13:21:10.551411 is saved.
+2025-06-10 13:21:12,417 ERROR Internal Server Error: /logout/
+Traceback (most recent call last):
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\nob22\Desktop\LR5\hello_django\djangoenv\start\hello\views.py", line 548, in logout
+    return redirect('main')
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\shortcuts.py", line 51, in redirect
+    resolve_url(to, *args, **kwargs),
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\shortcuts.py", line 184, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\urls\base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'main' not found. 'main' is not a valid view function or pattern name.
+2025-06-10 13:21:35,263 INFO Random Cat Fact - 2025-06-10 13:21:35.256345 is saved.
+2025-06-10 13:21:45,917 INFO Client Myname2 added.
+2025-06-10 13:21:48,865 INFO Random Cat Fact - 2025-06-10 13:21:48.860542 is saved.
+2025-06-10 13:21:50,100 ERROR Internal Server Error: /logout/
+Traceback (most recent call last):
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\nob22\Desktop\LR5\hello_django\djangoenv\start\hello\views.py", line 548, in logout
+    return redirect('main')
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\shortcuts.py", line 51, in redirect
+    resolve_url(to, *args, **kwargs),
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\shortcuts.py", line 184, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\urls\base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'main' not found. 'main' is not a valid view function or pattern name.
+2025-06-10 13:21:56,195 ERROR Internal Server Error: /logout/
+Traceback (most recent call last):
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\nob22\Desktop\LR5\hello_django\djangoenv\start\hello\views.py", line 548, in logout
+    return redirect('main')
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\shortcuts.py", line 51, in redirect
+    resolve_url(to, *args, **kwargs),
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\shortcuts.py", line 184, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\urls\base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'main' not found. 'main' is not a valid view function or pattern name.
+2025-06-10 13:21:59,078 INFO Random Cat Fact - 2025-06-10 13:21:59.071709 is saved.
+2025-06-10 13:22:08,941 INFO Client Myname2 added.
+2025-06-10 13:22:12,418 INFO Random Cat Fact - 2025-06-10 13:22:12.409604 is saved.
+2025-06-10 13:22:15,113 INFO Random Cat Fact - 2025-06-10 13:22:15.108440 is saved.
+2025-06-10 13:22:20,497 ERROR Internal Server Error: /logout/
+Traceback (most recent call last):
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\nob22\Desktop\LR5\hello_django\djangoenv\start\hello\views.py", line 548, in logout
+    return redirect('main')
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\shortcuts.py", line 51, in redirect
+    resolve_url(to, *args, **kwargs),
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\shortcuts.py", line 184, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\urls\base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'main' not found. 'main' is not a valid view function or pattern name.
+2025-06-10 13:22:57,196 WARNING Not Found: /.well-known/appspecific/com.chrome.devtools.json
+2025-06-10 13:23:06,348 INFO C:\Users\nob22\Desktop\LR5\hello_django\djangoenv\start\start\urls.py changed, reloading.
+2025-06-10 13:23:24,677 INFO C:\Users\nob22\Desktop\LR5\hello_django\djangoenv\start\start\urls.py changed, reloading.
+2025-06-10 13:23:28,828 INFO Random Cat Fact - 2025-06-10 13:23:28.821850 is saved.
+2025-06-10 13:23:41,319 INFO Client Myname2 added.
+2025-06-10 13:23:46,253 INFO Random Cat Fact - 2025-06-10 13:23:46.246560 is saved.
+2025-06-10 13:23:48,383 INFO Random Cat Fact - 2025-06-10 13:23:48.371086 is saved.
+2025-06-10 13:24:08,193 INFO Random Cat Fact - 2025-06-10 13:24:08.186376 is saved.
+2025-06-10 13:26:23,106 INFO Random Cat Fact - 2025-06-10 13:26:23.098980 is saved.
+2025-06-10 13:29:31,070 INFO Random Cat Fact - 2025-06-10 13:29:31.060416 is saved.
+2025-06-10 13:48:05,417 INFO Random Cat Fact - 2025-06-10 13:48:05.408612 is saved.
+2025-06-10 13:48:14,621 INFO Client Myname2 added.
+2025-06-10 13:52:30,260 INFO C:\Users\nob22\Desktop\LR5\hello_django\djangoenv\start\start\settings.py changed, reloading.
+2025-06-10 13:53:32,531 INFO Random Cat Fact - 2025-06-10 13:53:32.524762 is saved.
+2025-06-10 13:53:35,621 INFO Random Cat Fact - 2025-06-10 13:53:35.613140 is saved.
+2025-06-10 13:53:44,610 INFO Client Myname2 added.
+2025-06-10 13:54:30,414 INFO Random Cat Fact - 2025-06-10 13:54:30.407223 is saved.
+2025-06-10 13:54:37,249 WARNING Client not found.
+2025-06-10 13:54:37,249 WARNING Not Found: /login/
+2025-06-10 13:54:46,264 INFO Master nameee added.

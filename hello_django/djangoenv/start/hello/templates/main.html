@@ -3,6 +3,7 @@
 {% block header %}Главная{% endblock header %}
 
 {% block content %}
+{% include "menu.html" %}
 <div> 
     {% if user_type %}
         <p>Добро пожаловать, {{ user_name }}!</p>

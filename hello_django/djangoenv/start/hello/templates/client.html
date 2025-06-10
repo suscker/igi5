@@ -3,9 +3,6 @@
 {% block header %}Личный кабинет{% endblock header %}
 
 {% block content %}
-<div> 
-    <a href="/">Выйти</a> 
-</div>
 <div>
     {% if client.photo %}
         <img src="{{ client.photo.url }}" width="150" height="150">

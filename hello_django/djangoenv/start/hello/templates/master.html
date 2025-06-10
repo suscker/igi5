@@ -1,64 +1,60 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title>Аккаунт мастера</title>
-</head>
-<body>
-    <div> 
-        <a href="/">Выйти</a> 
-    </div>
-    <h1>Мастер</h1>
-    <div>
-        {% if master.photo %}
+{% extends "menu.html" %}
+{% block title %}Личный кабинет мастера{% endblock title %}
+{% block header %}Личный кабинет{% endblock header %}
+
+{% block content %}
+<div> 
+    <a href="/">Выйти</a> 
+</div>
+<div>
+    {% if master.photo %}
         <img src="{{ master.photo.url }}" width="150" height="150">
-        {% else %}
+    {% else %}
         <img src="https://avatars.mds.yandex.net/i?id=d97ce0a89d90bf016b1cb96a6e86114d3e3c3920-12529201-images-thumbs&n=13" width="150" height="150">
-        {% endif %}
-        <h2>{{ master.name }}</h2>
-        <p>Возраст: {{ master.age }}</p>
-        <p>Номер телефона: {{ master.phone_number }}</p>
-        <p>Количество заказов: {{ master.order_count }}</p>
-        <p>Специализация: {{ master.specialization.name }}</p>
-        <a href="editmaster/{{master.id}}">Редактировать информацию о мастере</a>
-    </div>
-    <h2>Заказы</h2>
-    {% if orders %}
-    <table> 
-        <thead> 
-            <tr> 
-                <th>Номер заказа</th> <th>Клиент</th> <th>Услуга</th> <th>Время заказа</th> <th>Общая стоимость</th> 
-            </tr> 
-        </thead> 
-        <tbody> 
-            {% for order in orders %} 
-            <tr> 
-                <td>{{ order.id }}</td> <td>{{ order.client.name }}</td> <td>{{ order.service.name }}</td> <td>{{ order.ordering_time }}</td> <td>{{ order.whole_price }}</td> 
-            </tr> 
-            {% endfor %} 
-        </tbody> 
-    </table>
-    {% else %}
-    <p>У мастера пока нет заказов.</p>
     {% endif %}
-    <h2>Клиенты</h2>
-    {% if clients %}
-    <table> 
-        <thead> 
-            <tr> 
-                <th>Имя клиента</th> <th>Возраст</th> <th>Номер телефона</th> <th>Марка машины</th> <th>Тип машины</th> 
-            </tr> 
-        </thead> 
-        <tbody> 
-            {% for cl in clients %} 
-            <tr> 
-                <td>{{ cl.name }}</td> <td>{{ cl.age }}</td> <td>{{ cl.phone_number }}</td> <td>{{ cl.car_model.name }}</td> <td>{{ cl.car_type.name }}</td> 
-            </tr> 
-            {% endfor %} 
-        </tbody> 
-    </table>
-    {% else %}
-    <p>У мастера пока нет клиентов.</p>
-    {% endif %}
-</body>
-</html>
+    <h2>{{ master.name }}</h2>
+    <p>Возраст: {{ master.age }}</p>
+    <p>Номер телефона: {{ master.phone_number }}</p>
+    <p>Количество заказов: {{ master.order_count }}</p>
+    <p>Специализация: {{ master.specialization.name }}</p>
+    <a href="editmaster/{{master.id}}">Редактировать информацию о мастере</a>
+</div>
+<h2>Заказы</h2>
+{% if orders %}
+<table> 
+    <thead> 
+        <tr> 
+            <th>Номер заказа</th> <th>Клиент</th> <th>Услуга</th> <th>Время заказа</th> <th>Общая стоимость</th> 
+        </tr> 
+    </thead> 
+    <tbody> 
+        {% for order in orders %} 
+        <tr> 
+            <td>{{ order.id }}</td> <td>{{ order.client.name }}</td> <td>{{ order.service.name }}</td> <td>{{ order.ordering_time }}</td> <td>{{ order.whole_price }}</td> 
+        </tr> 
+        {% endfor %} 
+    </tbody> 
+</table>
+{% else %}
+<p>У мастера пока нет заказов.</p>
+{% endif %}
+<h2>Клиенты</h2>
+{% if clients %}
+<table> 
+    <thead> 
+        <tr> 
+            <th>Имя клиента</th> <th>Возраст</th> <th>Номер телефона</th> <th>Марка машины</th> <th>Тип машины</th> 
+        </tr> 
+    </thead> 
+    <tbody> 
+        {% for cl in clients %} 
+        <tr> 
+            <td>{{ cl.name }}</td> <td>{{ cl.age }}</td> <td>{{ cl.phone_number }}</td> <td>{{ cl.car_model.name }}</td> <td>{{ cl.car_type.name }}</td> 
+        </tr> 
+        {% endfor %} 
+    </tbody> 
+</table>
+{% else %}
+<p>У мастера пока нет клиентов.</p>
+{% endif %}
+{% endblock content %}

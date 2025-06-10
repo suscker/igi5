@@ -63,7 +63,16 @@ def stats(request):
     return render(request, 'stats.html', context)
 
 def main(request):
-    services = Service.objects.all()
+    if request.method == "POST":
+        price_from = request.POST.get("price_from")
+        price_to = request.POST.get("price_to")
+        services = Service.objects.filter(price__gte = price_from, price__lte = price_to)
+    else:
+        services = Service.objects.all()
+    
+    user_type = request.session.get('user_type')
+    user_id = request.session.get('user_id')
+    user_name = request.session.get('user_name')
     
     url = "https://catfact.ninja/fact"
     response = requests.get(url).json()
@@ -88,16 +97,15 @@ def main(request):
     # Получение текущей даты для пользователя и UTC
     utc_now = datetime.datetime.now(tz=pytz.utc)
 
-    if request.method == "POST":
-        price_from = int(request.POST.get('price_from'))
-        price_to = int(request.POST.get('price_to'))
-        if price_from > price_to:
-            return HttpResponse("Filter is not correct.")
-        services = services.filter(price__gte=price_from)
-        services = services.filter(price__lte=price_to)
-    return render(request, "main.html", {"services" : services, "article" : article,
-                                         "user_now": datetime.datetime.now().strftime('%d/%m/%Y %H:%M:%S'),
-                                         "utc_now": utc_now.strftime('%d/%m/%Y %H:%M:%S'),})
+    return render(request, "main.html", {
+        "services" : services,
+        "article" : article,
+        "user_now" : datetime.datetime.now(),
+        "utc_now" : utc_now.strftime('%d/%m/%Y %H:%M:%S'),
+        "user_type": user_type,
+        "user_id": user_id,
+        "user_name": user_name
+    })
 
 
 
@@ -243,8 +251,12 @@ def login(request):
                 if len(searched_masters) > 0:
                     searched_masters = searched_masters.filter(password = tpassword)
                     if len(searched_masters) == 1:
-                        logging.info(f"Master {searched_masters.first().master.name} added.")
-                        return redirect(f'master/{searched_masters.first().master.pk}')
+                        master = searched_masters.first().master
+                        request.session['user_type'] = 'master'
+                        request.session['user_id'] = master.pk
+                        request.session['user_name'] = master.name
+                        logging.info(f"Master {master.name} added.")
+                        return redirect(f'master/{master.pk}')
                     else:
                         logging.warning(f"Master not found.")
                         return HttpResponseNotFound("Invalid password")
@@ -256,8 +268,12 @@ def login(request):
                 if len(searched_clients) > 0:
                     searched_clients = searched_clients.filter(password = tpassword)
                     if len(searched_clients) == 1:
-                        logging.info(f"Client {searched_clients.first().client.name} added.")
-                        return redirect(f'client/{searched_clients.first().client.pk}')
+                        client = searched_clients.first().client
+                        request.session['user_type'] = 'client'
+                        request.session['user_id'] = client.pk
+                        request.session['user_name'] = client.name
+                        logging.info(f"Client {client.name} added.")
+                        return redirect(f'client/{client.pk}')
                     else:
                         logging.warning(f"Client not found.")
                         return HttpResponseNotFound("Invalid password")
@@ -338,20 +354,32 @@ def register(request):
 
 def mastersview(request, master_id):
     mast = Master.objects.get(id = master_id)
+    request.session['user_type'] = 'master'
+    request.session['user_id'] = mast.pk
+    request.session['user_name'] = mast.name
     clients_id = ClientMaster.objects.filter(master = mast)
     clients = set(cm.client for cm in clients_id)
-    return render(request, "master.html", {"master": mast, "master_id" : master_id, "specs" : Specialization.objects.all(),
-                                           "orders" : Order.objects.filter(master = mast),
-                                           "clients" : clients})
+    return render(request, "master.html", {
+        "master": mast, 
+        "master_id": master_id, 
+        "specs": Specialization.objects.all(),
+        "orders": Order.objects.filter(master = mast),
+        "clients": clients
+    })
 
 def clientsview(request, client_id):
     client = Client.objects.get(id = client_id)
-    return render(request, "client.html", {"client": client, 
-                                           "client_id" : client_id, 
-                                           "car_models" : CarModel.objects.all(), 
-                                           "car_types" : CarType.objects.all(),
-                                           "proms" : Promocode.objects.all(),
-                                           "reviews" : Review.objects.filter(user = client).order_by("date").reverse()})
+    request.session['user_type'] = 'client'
+    request.session['user_id'] = client.pk
+    request.session['user_name'] = client.name
+    return render(request, "client.html", {
+        "client": client, 
+        "client_id" : client_id, 
+        "car_models" : CarModel.objects.all(), 
+        "car_types" : CarType.objects.all(),
+        "proms" : Promocode.objects.all(),
+        "reviews" : Review.objects.filter(user = client).order_by("date").reverse()
+    })
 
 
 def editmaster(request, master_id):
@@ -494,5 +522,9 @@ def recreate_articles_with_cats():
         article.title = f"Random Cat Fact - {datetime.datetime.now()}"
         article.save()
         logging.info(f"{article.title} is saved.")
+
+def logout(request):
+    request.session.flush()
+    return redirect('/')
 
     

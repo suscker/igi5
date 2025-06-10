@@ -1,78 +1,74 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title>Аккаунт клиента</title>
-</head>
-<body>
-    <div> 
-        <a href="/">Выйти</a> 
-    </div>
-    <h1>Клиент</h1>
-    <div >
-        {% if client.photo %}
-            <img src="{{ client.photo.url }}" width="150" height="150">
-        {% else %}
-            <img src="https://avatars.mds.yandex.net/i?id=d97ce0a89d90bf016b1cb96a6e86114d3e3c3920-12529201-images-thumbs&n=13" width="150" height="150">
-        {% endif %}
-        <h2>{{ client.name }}</h2>
-        <p>Возраст: {{ client.age }}</p>
-        <p>Номер телефона: {{ client.phone_number }}</p>
-        <p>Марка машины: {{ client.car_model.name }}</p>
-        <p>Тип машины: {{ client.car_type.name }}</p>
-        <p>Итоговая сумма заказов: {{ client.result_price }}</p>
-        <a href="editclient/{{client.id}}">Редактировать информацию о клиенте</a><br><br>
-    </div>
-    <h2>Список заказов</h2> 
-    <a href="createorder/{{client.id}}">Сделать заказ</a>
-    {% if client.orders.all %}
-    <table> 
-        <thead> 
-            <tr> 
-                <th>Номер заказа</th> <th>Мастер</th> <th>Услуга</th> <th>Время заказа</th> <th>Общая стоимость</th> 
-            </tr> 
-        </thead> 
-        <tbody> 
-            {% for order in client.orders.all %} 
-            <tr> 
-                <td>{{ order.id }}</td> <td>{{ order.master.name }}</td> <td>{{ order.service.name }}</td> <td>{{ order.ordering_time }}</td> <td>{{ order.whole_price }}</td> 
-            </tr> 
-            {% endfor %} 
-        </tbody> 
-    </table>
+{% extends "menu.html" %}
+{% block title %}Личный кабинет клиента{% endblock title %}
+{% block header %}Личный кабинет{% endblock header %}
+
+{% block content %}
+<div> 
+    <a href="/">Выйти</a> 
+</div>
+<div>
+    {% if client.photo %}
+        <img src="{{ client.photo.url }}" width="150" height="150">
     {% else %}
-    <p>У клиента пока нет заказов.</p>
+        <img src="https://avatars.mds.yandex.net/i?id=d97ce0a89d90bf016b1cb96a6e86114d3e3c3920-12529201-images-thumbs&n=13" width="150" height="150">
     {% endif %}
-    <h1>Промокоды</h1>
-    {% if proms %}
-    <table> 
-        <thead> 
-            <tr> 
-                <th>Название</th> <th>Скидка</th>
-            </tr> 
-        </thead> 
-        <tbody> 
-            {% for pr in proms %} 
-            <tr> 
-                <td>{{ pr.name }}</td> <td>{{ pr.discount }}%</td>
-            </tr> 
-            {% endfor %} 
-        </tbody> 
-    </table>
-    {% else %}
-    <p>Действующих промокодов нет.</p>
-    {% endif %}
-    <h1>Отзывы, которые вы оставили:</h1>
-    <a href="createreview/{{client.id}}">Добавить отзыв</a><br><br>
-    {% for review in reviews %}
-    <div>
-        <h3>{{ review.user.name }}</h3>
-        <p>{{ review.text }}</p>
-        <p>Дата: {{ review.date }}</p>
-        <p>Рейтинг: {{ review.rating }} из 5</p>
-        <a href="editreview/{{client.id}}/{{review.id}}">Редактировать</a>
-        <a href="deletereview/{{client.id}}/{{review.id}}">Удалить</a>
-    </div><br>
-    {% endfor %}
-</body>
-</html>
+    <h2>{{ client.name }}</h2>
+    <p>Возраст: {{ client.age }}</p>
+    <p>Номер телефона: {{ client.phone_number }}</p>
+    <p>Марка машины: {{ client.car_model.name }}</p>
+    <p>Тип машины: {{ client.car_type.name }}</p>
+    <p>Итоговая сумма заказов: {{ client.result_price }}</p>
+    <a href="editclient/{{client.id}}">Редактировать информацию о клиенте</a><br><br>
+</div>
+<h2>Список заказов</h2> 
+<a href="createorder/{{client.id}}">Сделать заказ</a>
+{% if client.orders.all %}
+<table> 
+    <thead> 
+        <tr> 
+            <th>Номер заказа</th> <th>Мастер</th> <th>Услуга</th> <th>Время заказа</th> <th>Общая стоимость</th> 
+        </tr> 
+    </thead> 
+    <tbody> 
+        {% for order in client.orders.all %} 
+        <tr> 
+            <td>{{ order.id }}</td> <td>{{ order.master.name }}</td> <td>{{ order.service.name }}</td> <td>{{ order.ordering_time }}</td> <td>{{ order.whole_price }}</td> 
+        </tr> 
+        {% endfor %} 
+    </tbody> 
+</table>
+{% else %}
+<p>У клиента пока нет заказов.</p>
+{% endif %}
+<h1>Промокоды</h1>
+{% if proms %}
+<table> 
+    <thead> 
+        <tr> 
+            <th>Название</th> <th>Скидка</th>
+        </tr> 
+    </thead> 
+    <tbody> 
+        {% for pr in proms %} 
+        <tr> 
+            <td>{{ pr.name }}</td> <td>{{ pr.discount }}%</td>
+        </tr> 
+        {% endfor %} 
+    </tbody> 
+</table>
+{% else %}
+<p>Действующих промокодов нет.</p>
+{% endif %}
+<h1>Отзывы, которые вы оставили:</h1>
+<a href="createreview/{{client.id}}">Добавить отзыв</a><br><br>
+{% for review in reviews %}
+<div>
+    <h3>{{ review.user.name }}</h3>
+    <p>{{ review.text }}</p>
+    <p>Дата: {{ review.date }}</p>
+    <p>Рейтинг: {{ review.rating }} из 5</p>
+    <a href="editreview/{{client.id}}/{{review.id}}">Редактировать</a>
+    <a href="deletereview/{{client.id}}/{{review.id}}">Удалить</a>
+</div><br>
+{% endfor %}
+{% endblock content %}

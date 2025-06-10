@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}Личный кабинет клиента{% endblock %}</title>
+    <style>
+        .nav-menu {
+            background-color: #333;
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+        .nav-menu a {
+            color: white;
+            text-decoration: none;
+            margin-right: 20px;
+            padding: 5px 10px;
+        }
+        .nav-menu a:hover {
+            background-color: #555;
+            border-radius: 3px;
+        }
+        .content {
+            padding: 20px;
+        }
+        .logout {
+            float: right;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav-menu">
+        <a href="{% url 'client' client_id=client.id %}">Главная</a>
+        <a href="{% url 'client' client_id=client.id %}#orders">Мои заказы</a>
+        <a href="{% url 'client' client_id=client.id %}#reviews">Мои отзывы</a>
+        <a href="{% url 'client' client_id=client.id %}#promocodes">Промокоды</a>
+        <a href="{% url 'editclient' client_id=client.id %}">Редактировать профиль</a>
+        <a href="/" class="logout">Выйти</a>
+    </div>
+    <div class="content">
+        {% block content %}
+        {% endblock %}
+    </div>
+</body>
+</html> 

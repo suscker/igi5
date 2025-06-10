@@ -1,0 +1,63 @@
+<!DOCTYPE html> 
+<html> 
+    <head> 
+        <meta charset="UTF-8"> 
+        <title>Создание заказа</title> 
+    </head> 
+    <body> 
+        <h1>Создание нового заказа</h1> 
+        <form method="POST">
+            {% csrf_token %} 
+            <td> 
+                <h3>Список мастеров</h3> 
+                <ul> 
+                    {% for master in masters %} 
+                        <li>{{ master.name }}
+                            <br> Специализация: {{ master.specialization.name }}
+                            <br> Возраст: {{ master.age }}
+                            <br> Количество заказов: {{ master.order_count }}</li>
+                    {% endfor %} 
+                </ul> 
+            </td>
+            <div> 
+                <strong><label>Мастер:</label> </strong>
+                <select name="master" required> 
+                    {% for master in masters %} 
+                        <option value="{{ master.id }}">{{ master.name }}</option>
+                    {% endfor %} 
+                </select> 
+            </div> 
+            <td> 
+                <h3>Список услуг</h3> 
+                <ul> 
+                    {% for serv in services %} 
+                    <li>{{ serv.name }}
+                        <br> Цена: {{ serv.price }}
+                    {% endfor %} 
+                </ul> 
+            </td>
+            <div> 
+                <strong><label>Услуга:</label></strong>
+                <select name="service" required> 
+                    {% for service in services %} 
+                        <option value="{{ service.id }}">{{ service.name }}</option> 
+                    {% endfor %} 
+                </select> 
+            </div> 
+            <div> 
+                <strong><label>Детали:</label></strong><br>
+                {% for part in parts %} 
+                    <input type="checkbox" name="parts" value="{{ part.id }}"> 
+                    <label>{{ part.name }}</label><br>
+                    <lable>Цена: </label> 
+                    <label>{{ part.price }}</label><br>
+                {% endfor %} 
+            </div> 
+            <div> 
+                <strong><label>Промокод:</label></strong> 
+                <input type="text" name="promocode"> 
+            </div> 
+            <input href="" type="submit" value="Сделать заказ">  
+        </form> 
+    </body> 
+</html>

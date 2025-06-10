@@ -1,0 +1,31 @@
+{% extends "menu.html" %}
+{% block title %}Статистика{% endblock title %}
+{% block header %}Статистические данные{% endblock header %}
+
+{% block content %}
+<h2>Список клиентов в алфавитном порядке и общая сумма продаж</h2>
+<ul>
+    {% for client in sorted_clients %}
+    <li>{{ client.name }}</li>
+    {% endfor %}
+</ul>
+<p>Общая сумма продаж: {{ whole_sale_price }}</p>
+
+<h2>Статистические показатели по сумме продаж</h2>
+<p>Среднее: {{ average_sale_price }}</p>
+<p>Мода: {{ mode_sale_price }}</p>
+<p>Медиана: {{ median_sale_price }}</p>
+
+<h2>Статистические показатели по возрасту клиентов</h2>
+<p>Среднее: {{ average_age }}</p>
+<p>Медиана: {{ median_age }}</p>
+
+<h2>Самый популярный тип товаров</h2>
+<p>{{ most_common_service }}</p>
+
+
+<h2>Количество заказов за последние 7 дней</h2>
+<img src="{{ plot_url }}" alt="Order graph">
+
+{% endblock content %}
+

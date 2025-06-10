@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}Default title{% endblock title %}</title>
+</head>
+<body>
+    <h1>{% block header %}{% endblock header %}</h1>
+    <h2>Навигация</h2>
+    <ul>
+        <li><a href="/">Главная</a></li>
+        <li><a href="/about_company">О компании</a></li>
+        <li><a href="/news">Новости</a></li>
+        <li><a href="/qa">Вопросы-ответы</a></li>
+        <li><a href="/contacts">Контакты</a></li>
+        <li><a href="/politics">Политика конфиденциальности</a></li>
+        <li><a href="/admin">Админ</a></li>
+        <li><a href="/vacancies">Вакансии</a></li>
+        <li><a href="/reviews">Отзывы</a></li>
+        <li><a href="/promocodes">Промокоды и купоны</a></li>
+        <li><a href="/statistics">Статистика</a></li>
+
+    </ul>
+    <div>{% block content%}{% endblock content %}</div>
+</body>
+</html>

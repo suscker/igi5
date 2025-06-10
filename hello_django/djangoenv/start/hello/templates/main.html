@@ -1,0 +1,51 @@
+{% extends "menu.html" %}
+{% block title %}Главная страница{% endblock title %}
+{% block header %}Главная{% endblock header %}
+
+{% block content %}
+<div> 
+    <a href="/login">Войти</a> 
+    <a href="/register">Зарегистрироваться</a> 
+</div>
+<p>Текущая дата и время для Вашего часового пояса: {{ user_now }}</p>
+<p>Текущая дата и время в UTC: {{ utc_now }}</p>
+{% if article %} 
+<h3>{{ article.title }}</h3> 
+<p>{{ article.text }}</p> 
+<img src="{{ article.img_url }}" width="150" height="150"> 
+{% else %} 
+<p>Нет опубликованных статей.</p> 
+{% endif %}
+<h2>Услуги</h2>
+<form method="POST">
+    {% csrf_token %}
+    <label>Стоимость от:</label>
+    <input type="number" name="price_from" required>
+    <label> до:</label>
+    <input type="number" name="price_to" required>
+    <button type="submit">Применить фильтр</button>
+</form><br>
+{% if services %}
+<table>
+    <thead>
+        <tr>
+            <th>Название услуги</th>
+            <th>Цена</th>
+            <th>Тип услуги</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for service in services %}
+        <tr>
+            <td>{{ service.name }}</td>
+            <td>{{ service.price }}</td>
+            <td>{{ service.type.name }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% else %}
+<p>Список услуг пока пуст.</p>
+{% endif %}
+{% endblock content %}
+

@@ -1,0 +1,19 @@
+<!DOCTYPE html> 
+<html> 
+    <head> 
+        <meta charset="UTF-8"> 
+        <title>Удаление отзыва</title> 
+    </head> 
+    <body> 
+        <h1>Ваш отзыв</h1>
+        <form method="post">
+            {% csrf_token %}
+            <div>
+                <h3>{{ review.user.name }}</h3>
+                <p>{{ review.text }}</p>
+                <p>Дата: {{ review.date }}</p>
+            </div><br>
+            <button type="submit">Удалить</button>
+        </form>
+    </body> 
+</html>

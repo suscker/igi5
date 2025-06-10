@@ -1,0 +1,2043 @@
+INFO:django.utils.autoreload:C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\start\hello\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\start\hello\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\start\hello\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\start\hello\views.py changed, reloading.
+2024-05-25 00:17:26,042 INFO C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\start\hello\views.py changed, reloading.
+2024-05-25 00:17:26,374 INFO C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\start\hello\views.py changed, reloading.
+2024-05-25 00:20:05,145 INFO C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\start\hello\views.py changed, reloading.
+2024-05-25 00:20:05,594 INFO C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\start\hello\views.py changed, reloading.
+2024-05-25 00:20:22,821 INFO C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\start\hello\views.py changed, reloading.
+2024-05-25 00:20:23,274 INFO C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\start\hello\views.py changed, reloading.
+2024-05-25 00:23:12,116 INFO C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\start\hello\views.py changed, reloading.
+2024-05-25 00:23:12,569 INFO C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\start\hello\views.py changed, reloading.
+2024-05-25 00:23:39,068 INFO C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\start\hello\views.py changed, reloading.
+2024-05-25 00:23:39,451 INFO C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\start\hello\views.py changed, reloading.
+2024-05-25 00:23:57,179 INFO C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\start\hello\views.py changed, reloading.
+2024-05-25 00:23:57,811 INFO C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\start\hello\views.py changed, reloading.
+2024-05-25 00:24:04,676 INFO C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\start\hello\views.py changed, reloading.
+2024-05-25 00:24:05,266 INFO C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\start\hello\views.py changed, reloading.
+2024-05-25 00:24:20,336 WARNING Master not found.
+2024-05-25 00:24:20,337 WARNING Not Found: /login/
+2024-05-25 00:24:26,893 WARNING Master not found.
+2024-05-25 00:24:26,893 WARNING Not Found: /login/
+2024-05-25 00:24:31,469 WARNING Client not found.
+2024-05-25 00:24:31,470 WARNING Not Found: /login/
+2024-05-25 00:24:43,781 INFO Client Sveta added.
+2024-05-25 00:25:01,466 INFO C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\start\hello\views.py changed, reloading.
+2024-05-25 00:25:02,293 INFO C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\start\hello\views.py changed, reloading.
+2024-05-25 00:25:18,938 INFO C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\start\hello\views.py changed, reloading.
+2024-05-25 00:25:19,120 INFO C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\start\hello\views.py changed, reloading.
+2024-05-25 00:25:32,561 INFO C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\start\hello\views.py changed, reloading.
+2024-05-25 00:25:32,719 INFO C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\start\hello\views.py changed, reloading.
+2024-05-25 00:33:50,305 INFO C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\start\hello\models.py changed, reloading.
+2024-05-25 00:33:50,308 INFO C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\start\hello\models.py changed, reloading.
+2024-05-25 09:12:14,291 WARNING Random Cat Fact - 2024-05-25 09:12:08.751375 cannot be saved.
+2024-05-25 09:12:14,642 WARNING Not Found: /favicon.ico
+2024-05-25 09:12:37,099 WARNING Random Cat Fact - 2024-05-25 09:12:31.558673 cannot be saved.
+2024-05-25 09:12:51,570 WARNING Random Cat Fact - 2024-05-25 09:12:46.015602 cannot be saved.
+2024-05-25 09:13:14,052 INFO C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\start\hello\views.py changed, reloading.
+2024-05-25 09:13:24,133 INFO C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\start\hello\views.py changed, reloading.
+2024-05-25 09:13:36,019 ERROR Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: database is locked
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\start\hello\views.py", line 31, in main
+    article.save()
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\db\models\base.py", line 822, in save
+    self.save_base(
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\db\models\base.py", line 909, in save_base
+    updated = self._save_table(
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\db\models\base.py", line 1071, in _save_table
+    results = self._do_insert(
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\db\models\base.py", line 1112, in _do_insert
+    return manager._insert(
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\db\models\query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\db\models\sql\compiler.py", line 1823, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: database is locked
+2024-05-25 09:13:50,214 INFO Random Cat Fact - 2024-05-25 09:13:50.194323 is saved.
+2024-05-25 09:13:54,064 INFO Random Cat Fact - 2024-05-25 09:13:54.047483 is saved.
+2024-05-25 09:13:57,825 INFO Random Cat Fact - 2024-05-25 09:13:57.800066 is saved.
+2024-05-25 09:14:12,720 INFO Client Sveta added.
+2024-05-25 09:22:30,563 INFO Random Cat Fact - 2024-05-25 09:22:30.546087 is saved.
+2024-05-25 09:23:52,705 INFO Random Cat Fact - 2024-05-25 09:23:52.685565 is saved.
+2024-05-25 09:26:43,679 INFO C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\start\hello\admin.py changed, reloading.
+2024-05-25 09:27:16,731 ERROR Internal Server Error: /admin/hello/part/
+Traceback (most recent call last):
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\contrib\admin\options.py", line 716, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\contrib\admin\sites.py", line 240, in inner
+    return view(request, *args, **kwargs)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\contrib\admin\options.py", line 2018, in changelist_view
+    response = self.response_action(
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\contrib\admin\options.py", line 1650, in response_action
+    response = func(self, request, queryset)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\start\hello\admin.py", line 30, in display_parts_by_type
+    parts = PartType.objects.filter(part_type=part_type)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\db\models\sql\query.py", line 1613, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\db\models\sql\query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\db\models\sql\query.py", line 1495, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\db\models\sql\query.py", line 1307, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\db\models\sql\query.py", line 1772, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'part_type' into field. Choices are: id, name, parts
+2024-05-25 09:28:02,545 INFO C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\start\hello\admin.py changed, reloading.
+2024-05-25 09:28:18,540 ERROR Internal Server Error: /admin/hello/parttype/
+Traceback (most recent call last):
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\contrib\admin\options.py", line 716, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\contrib\admin\sites.py", line 240, in inner
+    return view(request, *args, **kwargs)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\contrib\admin\options.py", line 2018, in changelist_view
+    response = self.response_action(
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\contrib\admin\options.py", line 1650, in response_action
+    response = func(self, request, queryset)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\start\hello\admin.py", line 29, in display_parts_by_type
+    parts = PartType.objects.filter(part_type=part_type)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\db\models\sql\query.py", line 1613, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\db\models\sql\query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\db\models\sql\query.py", line 1495, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\db\models\sql\query.py", line 1307, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\db\models\sql\query.py", line 1772, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'part_type' into field. Choices are: id, name, parts
+2024-05-25 09:30:27,114 INFO C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\start\hello\admin.py changed, reloading.
+2024-05-25 09:30:32,938 ERROR Internal Server Error: /admin/hello/parttype/
+Traceback (most recent call last):
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\contrib\admin\options.py", line 716, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\contrib\admin\sites.py", line 240, in inner
+    return view(request, *args, **kwargs)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\contrib\admin\options.py", line 2018, in changelist_view
+    response = self.response_action(
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\contrib\admin\options.py", line 1650, in response_action
+    response = func(self, request, queryset)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\start\hello\admin.py", line 34, in display_parts_by_type
+    self.message_user(request, f"- Order: {part.order.id}, Quantity: {part.quantity}, Price: {part.price}")
+AttributeError: 'Part' object has no attribute 'order'
+2024-05-25 09:31:29,713 INFO C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\start\hello\admin.py changed, reloading.
+2024-05-25 09:34:09,680 INFO Random Cat Fact - 2024-05-25 09:34:09.660717 is saved.
+2024-05-25 09:34:38,227 INFO Random Cat Fact - 2024-05-25 09:34:38.209558 is saved.
+2024-05-25 10:03:08,789 INFO C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\start\start\urls.py changed, reloading.
+2024-05-25 10:36:07,689 INFO Random Cat Fact - 2024-05-25 10:36:07.668478 is saved.
+2024-05-25 10:36:08,224 WARNING Not Found: /favicon.ico
+2024-05-25 10:36:57,265 INFO C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\start\hello\views.py changed, reloading.
+2024-05-25 10:37:01,681 INFO Random Cat Fact - 2024-05-25 10:37:01.668336 is saved.
+2024-05-25 10:37:09,080 INFO Random Cat Fact - 2024-05-25 10:37:09.062469 is saved.
+2024-05-25 10:42:41,125 INFO Random Cat Fact - 2024-05-25 10:42:41.110367 is saved.
+2024-05-25 10:43:22,884 INFO Random Cat Fact - 2024-05-25 10:43:22.870685 is saved.
+2024-05-25 10:43:35,717 INFO Random Cat Fact - 2024-05-25 10:43:35.702431 is saved.
+2024-05-25 10:43:59,418 INFO Random Cat Fact - 2024-05-25 10:43:59.403779 is saved.
+2024-05-25 10:44:21,792 INFO Random Cat Fact - 2024-05-25 10:44:21.780187 is saved.
+2024-05-25 10:44:39,308 INFO Random Cat Fact - 2024-05-25 10:44:39.292092 is saved.
+2024-05-25 10:49:03,374 INFO Random Cat Fact - 2024-05-25 10:49:03.361961 is saved.
+2024-05-25 10:50:19,136 INFO Master Mark added.
+2024-05-25 10:51:46,611 INFO C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\start\hello\views.py changed, reloading.
+2024-05-25 10:53:36,636 INFO C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\start\hello\views.py changed, reloading.
+2024-05-25 10:54:03,407 INFO Random Cat Fact - 2024-05-25 10:54:03.395418 is saved.
+2024-05-25 10:54:12,450 INFO Random Cat Fact - 2024-05-25 10:54:12.436285 is saved.
+2024-05-25 10:56:31,123 INFO C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\start\hello\models.py changed, reloading.
+2024-06-03 14:15:18,039 INFO Random Cat Fact - 2024-06-03 14:15:18.034311 is saved.
+2024-06-03 14:15:18,808 WARNING Not Found: /favicon.ico
+2024-06-03 14:16:10,688 ERROR Internal Server Error: /register/
+Traceback (most recent call last):
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+sqlite3.IntegrityError: NOT NULL constraint failed: hello_master.age
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\start\hello\views.py", line 205, in register
+    new_master.save()
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\db\models\base.py", line 822, in save
+    self.save_base(
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\db\models\base.py", line 909, in save_base
+    updated = self._save_table(
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\db\models\base.py", line 1071, in _save_table
+    results = self._do_insert(
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\db\models\base.py", line 1112, in _do_insert
+    return manager._insert(
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\db\models\query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\db\models\sql\compiler.py", line 1823, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+django.db.utils.IntegrityError: NOT NULL constraint failed: hello_master.age
+2024-06-03 14:18:20,179 INFO C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\start\hello\models.py changed, reloading.
+2024-06-03 14:23:23,751 INFO C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\start\hello\views.py changed, reloading.
+2024-06-03 14:24:31,910 INFO C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\start\hello\views.py changed, reloading.
+2024-06-03 14:26:07,274 INFO Random Cat Fact - 2024-06-03 14:26:07.260129 is saved.
+2024-06-03 14:26:54,194 ERROR Internal Server Error: /register/
+Traceback (most recent call last):
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\start\hello\views.py", line 205, in register
+    is_adult = CheckAge(age)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\start\hello\views.py", line 187, in CheckAge
+    min_birthday = datetime.datetime.today() - datetime.datetime.day(365*18)
+TypeError: 'getset_descriptor' object is not callable
+2024-06-03 14:28:33,356 INFO C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\start\hello\views.py changed, reloading.
+2024-06-03 14:28:48,718 ERROR Internal Server Error: /register/
+Traceback (most recent call last):
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\start\hello\views.py", line 205, in register
+    is_adult = CheckAge(age)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\start\hello\views.py", line 188, in CheckAge
+    if age > min_birthday:
+TypeError: '>' not supported between instances of 'NoneType' and 'datetime.datetime'
+2024-06-03 14:30:30,292 INFO C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\start\hello\views.py changed, reloading.
+2024-06-03 14:30:44,766 ERROR Internal Server Error: /register/
+Traceback (most recent call last):
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+sqlite3.IntegrityError: NOT NULL constraint failed: hello_master.age
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\start\hello\views.py", line 219, in register
+    new_master.save()
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\db\models\base.py", line 822, in save
+    self.save_base(
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\db\models\base.py", line 909, in save_base
+    updated = self._save_table(
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\db\models\base.py", line 1071, in _save_table
+    results = self._do_insert(
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\db\models\base.py", line 1112, in _do_insert
+    return manager._insert(
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\db\models\query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\db\models\sql\compiler.py", line 1823, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+django.db.utils.IntegrityError: NOT NULL constraint failed: hello_master.age
+2024-06-03 14:31:27,654 INFO C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\start\hello\views.py changed, reloading.
+2024-06-03 14:31:37,509 ERROR Internal Server Error: /register/
+Traceback (most recent call last):
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+sqlite3.IntegrityError: NOT NULL constraint failed: hello_master.age
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\start\hello\views.py", line 220, in register
+    new_master.save()
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\db\models\base.py", line 822, in save
+    self.save_base(
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\db\models\base.py", line 909, in save_base
+    updated = self._save_table(
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\db\models\base.py", line 1071, in _save_table
+    results = self._do_insert(
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\db\models\base.py", line 1112, in _do_insert
+    return manager._insert(
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\db\models\query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\db\models\sql\compiler.py", line 1823, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+django.db.utils.IntegrityError: NOT NULL constraint failed: hello_master.age
+2024-06-03 18:24:32,768 INFO Random Cat Fact - 2024-06-03 18:24:32.755311 is saved.
+2024-06-03 18:24:33,459 WARNING Not Found: /favicon.ico
+2024-06-03 18:25:09,353 ERROR Internal Server Error: /register/
+Traceback (most recent call last):
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\start\hello\views.py", line 205, in register
+    is_adult = CheckAge(age)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\start\hello\views.py", line 187, in CheckAge
+    min_birthday = datetime.datetime.today() - age
+TypeError: unsupported operand type(s) for -: 'datetime.datetime' and 'NoneType'
+2024-06-03 18:25:59,433 INFO C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\start\hello\views.py changed, reloading.
+2024-06-03 18:26:06,129 ERROR Internal Server Error: /register/
+Traceback (most recent call last):
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\start\hello\views.py", line 205, in register
+    is_adult = CheckAge(age)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\start\hello\views.py", line 187, in CheckAge
+    min_birthday = datetime.date.today() - age
+TypeError: unsupported operand type(s) for -: 'datetime.date' and 'NoneType'
+2024-06-03 18:26:33,858 INFO C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\start\hello\views.py changed, reloading.
+2024-06-03 18:31:59,753 INFO C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\start\hello\views.py changed, reloading.
+2024-06-03 18:32:17,393 INFO C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\start\hello\views.py changed, reloading.
+2024-06-03 18:32:33,132 ERROR Internal Server Error: /register/
+Traceback (most recent call last):
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\start\hello\views.py", line 205, in register
+    dob = datetime.datetime.strptime(age, "%Y-%m-%d").date()
+TypeError: strptime() argument 1 must be str, not None
+2024-06-03 18:32:44,691 INFO C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\start\hello\views.py changed, reloading.
+2024-06-03 18:33:03,388 INFO C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\start\hello\views.py changed, reloading.
+2024-06-03 18:33:09,957 ERROR Internal Server Error: /register/
+Traceback (most recent call last):
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\start\hello\views.py", line 207, in register
+    is_adult = CheckAge(dob)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\start\hello\views.py", line 188, in CheckAge
+    if min_birthday > 18:
+TypeError: '>' not supported between instances of 'datetime.timedelta' and 'int'
+2024-06-03 18:33:46,035 INFO C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\start\hello\views.py changed, reloading.
+2024-06-03 18:34:20,818 INFO Random Cat Fact - 2024-06-03 18:34:20.806557 is saved.
+2024-06-03 18:38:42,829 INFO Random Cat Fact - 2024-06-03 18:38:42.818096 is saved.
+2024-06-03 18:43:27,784 INFO C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\start\hello\views.py changed, reloading.
+2024-06-03 18:43:30,086 INFO C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\start\hello\views.py changed, reloading.
+2024-06-03 18:43:37,124 INFO Master ben env added.
+2024-06-03 18:43:47,419 INFO Random Cat Fact - 2024-06-03 18:43:47.408101 is saved.
+2024-06-03 18:44:45,004 INFO C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\start\hello\models.py changed, reloading.
+2024-06-03 18:45:21,201 INFO C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\start\hello\models.py changed, reloading.
+2024-06-03 18:48:23,695 INFO C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\start\hello\views.py changed, reloading.
+2024-06-03 18:48:52,072 INFO C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\start\hello\views.py changed, reloading.
+2024-06-03 18:54:53,000 INFO C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\start\hello\views.py changed, reloading.
+2024-06-03 18:56:22,416 INFO Random Cat Fact - 2024-06-03 18:56:22.404851 is saved.
+2024-06-03 18:56:45,271 INFO Random Cat Fact - 2024-06-03 18:56:45.262014 is saved.
+2024-06-03 18:57:05,188 INFO C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\start\hello\views.py changed, reloading.
+2024-06-03 19:03:14,885 INFO Random Cat Fact - 2024-06-03 19:03:14.876117 is saved.
+2024-06-03 19:08:34,825 INFO C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\start\hello\views.py changed, reloading.
+2024-06-03 19:08:49,329 INFO C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\start\hello\views.py changed, reloading.
+2024-06-03 19:10:56,074 INFO Random Cat Fact - 2024-06-03 19:10:56.067671 is saved.
+2024-06-03 19:11:21,362 ERROR Internal Server Error: /statistics/
+Traceback (most recent call last):
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\start\hello\views.py", line 69, in statisticsv
+    sum += cl.age
+TypeError: unsupported operand type(s) for +=: 'int' and 'NoneType'
+2024-06-03 19:13:20,932 INFO C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\start\hello\views.py changed, reloading.
+2024-06-03 19:13:32,384 INFO C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\start\hello\views.py changed, reloading.
+2024-06-03 19:13:37,773 ERROR Internal Server Error: /statistics/
+Traceback (most recent call last):
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\start\hello\views.py", line 68, in statisticsv
+    age = datetime.datetime.now().year - cl.age.year
+AttributeError: 'NoneType' object has no attribute 'year'
+2024-06-03 19:14:56,545 INFO C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\start\hello\views.py changed, reloading.
+2024-06-03 19:15:01,430 ERROR Internal Server Error: /statistics/
+Traceback (most recent call last):
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\start\hello\views.py", line 68, in statisticsv
+    age = datetime.datetime.now().year - cl.age.year
+AttributeError: 'NoneType' object has no attribute 'year'
+2024-06-03 19:15:07,740 ERROR Internal Server Error: /statistics/
+Traceback (most recent call last):
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\start\hello\views.py", line 68, in statisticsv
+    age = datetime.datetime.now().year - cl.age.year
+AttributeError: 'NoneType' object has no attribute 'year'
+2024-06-03 19:15:27,941 INFO C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\start\hello\views.py changed, reloading.
+2024-06-03 19:15:32,449 ERROR Internal Server Error: /statistics/
+Traceback (most recent call last):
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\start\hello\views.py", line 68, in statisticsv
+    age = datetime.date.today().year - cl.age.year
+AttributeError: 'NoneType' object has no attribute 'year'
+2024-06-03 19:16:07,421 INFO C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\start\hello\views.py changed, reloading.
+2024-06-03 19:16:10,709 ERROR Internal Server Error: /statistics/
+Traceback (most recent call last):
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\lib\python3.10\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\start\hello\views.py", line 68, in statisticsv
+    age = datetime.date.today() - cl.age
+TypeError: unsupported operand type(s) for -: 'datetime.date' and 'NoneType'
+2024-06-03 19:18:08,058 INFO C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\start\hello\views.py changed, reloading.
+2024-06-03 19:19:16,158 INFO C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\start\hello\views.py changed, reloading.
+2024-06-03 19:19:40,120 INFO C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\start\hello\views.py changed, reloading.
+2024-06-03 19:20:07,221 INFO C:\253503_MINICH_17\igi\LR5\hello_django\djangoenv\start\hello\views.py changed, reloading.
+2025-06-01 13:12:40,836 INFO Random Cat Fact - 2025-06-01 13:12:40.827325 is saved.
+2025-06-01 13:12:41,353 WARNING Not Found: /favicon.ico
+2025-06-01 13:13:42,248 INFO Random Cat Fact - 2025-06-01 13:13:42.241808 is saved.
+2025-06-01 13:13:51,070 INFO Random Cat Fact - 2025-06-01 13:13:51.062491 is saved.
+2025-06-01 13:14:13,510 INFO Random Cat Fact - 2025-06-01 13:14:13.502359 is saved.
+2025-06-01 13:14:20,085 INFO Random Cat Fact - 2025-06-01 13:14:20.078103 is saved.
+2025-06-01 13:14:30,854 INFO Random Cat Fact - 2025-06-01 13:14:30.846685 is saved.
+2025-06-01 13:14:36,045 INFO Random Cat Fact - 2025-06-01 13:14:36.034449 is saved.
+2025-06-01 13:14:39,814 INFO Random Cat Fact - 2025-06-01 13:14:39.806005 is saved.
+2025-06-01 13:14:40,625 INFO Random Cat Fact - 2025-06-01 13:14:40.618946 is saved.
+2025-06-01 13:14:41,288 INFO Random Cat Fact - 2025-06-01 13:14:41.282702 is saved.
+2025-06-01 13:14:41,970 INFO Random Cat Fact - 2025-06-01 13:14:41.962702 is saved.
+2025-06-01 13:14:42,605 INFO Random Cat Fact - 2025-06-01 13:14:42.598796 is saved.
+2025-06-01 13:14:43,323 INFO Random Cat Fact - 2025-06-01 13:14:43.314716 is saved.
+2025-06-01 13:14:44,627 INFO Random Cat Fact - 2025-06-01 13:14:44.618913 is saved.
+2025-06-01 13:14:45,467 INFO Random Cat Fact - 2025-06-01 13:14:45.460263 is saved.
+2025-06-01 13:14:46,233 INFO Random Cat Fact - 2025-06-01 13:14:46.226509 is saved.
+2025-06-01 13:28:08,037 INFO Random Cat Fact - 2025-06-01 13:28:08.030625 is saved.
+2025-06-01 13:28:13,154 INFO Random Cat Fact - 2025-06-01 13:28:13.146904 is saved.
+2025-06-01 13:28:20,081 INFO Random Cat Fact - 2025-06-01 13:28:20.074549 is saved.
+2025-06-01 13:28:24,919 INFO Random Cat Fact - 2025-06-01 13:28:24.913345 is saved.
+2025-06-01 13:28:29,985 INFO Random Cat Fact - 2025-06-01 13:28:29.978626 is saved.
+2025-06-01 13:34:43,766 INFO Random Cat Fact - 2025-06-01 13:34:43.760605 is saved.
+2025-06-01 13:38:33,698 ERROR Internal Server Error: /admin/hello/client/
+Traceback (most recent call last):
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\models\options.py", line 683, in get_field
+    return self.fields_map[field_name]
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'action_checkbox'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\contrib\admin\utils.py", line 290, in lookup_field
+    f = _get_non_gfk_field(opts, name)
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\contrib\admin\utils.py", line 330, in _get_non_gfk_field
+    field = opts.get_field(name)
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\models\options.py", line 685, in get_field
+    raise FieldDoesNotExist(
+        "%s has no field named '%s'" % (self.object_name, field_name)
+    )
+django.core.exceptions.FieldDoesNotExist: Client has no field named 'action_checkbox'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\contrib\admin\templatetags\base.py", line 45, in render
+    return super().render(context)
+           ~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\library.py", line 359, in render
+    _dict = self.func(*resolved_args, **resolved_kwargs)
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\contrib\admin\templatetags\admin_list.py", line 354, in result_list
+    "results": list(results(cl)),
+               ~~~~^^^^^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\contrib\admin\templatetags\admin_list.py", line 330, in results
+    yield ResultList(None, items_for_result(cl, res, None))
+          ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\contrib\admin\templatetags\admin_list.py", line 321, in __init__
+    super().__init__(*items)
+    ~~~~~~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\contrib\admin\templatetags\admin_list.py", line 219, in items_for_result
+    f, attr, value = lookup_field(field_name, result, cl.model_admin)
+                     ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\contrib\admin\utils.py", line 299, in lookup_field
+    value = attr(obj)
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\contrib\admin\options.py", line 1031, in action_checkbox
+    _("Select this object for an action - {}"), str(obj)
+                                                ~~~^^^^^
+  File "C:\Users\nob22\Desktop\LR5\hello_django\djangoenv\start\hello\models.py", line 56, in __str__
+    return self.name()
+           ~~~~~~~~~^^
+TypeError: 'str' object is not callable
+2025-06-01 13:38:36,952 ERROR Internal Server Error: /admin/hello/client/
+Traceback (most recent call last):
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\models\options.py", line 683, in get_field
+    return self.fields_map[field_name]
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'action_checkbox'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\contrib\admin\utils.py", line 290, in lookup_field
+    f = _get_non_gfk_field(opts, name)
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\contrib\admin\utils.py", line 330, in _get_non_gfk_field
+    field = opts.get_field(name)
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\models\options.py", line 685, in get_field
+    raise FieldDoesNotExist(
+        "%s has no field named '%s'" % (self.object_name, field_name)
+    )
+django.core.exceptions.FieldDoesNotExist: Client has no field named 'action_checkbox'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\contrib\admin\templatetags\base.py", line 45, in render
+    return super().render(context)
+           ~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\library.py", line 359, in render
+    _dict = self.func(*resolved_args, **resolved_kwargs)
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\contrib\admin\templatetags\admin_list.py", line 354, in result_list
+    "results": list(results(cl)),
+               ~~~~^^^^^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\contrib\admin\templatetags\admin_list.py", line 330, in results
+    yield ResultList(None, items_for_result(cl, res, None))
+          ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\contrib\admin\templatetags\admin_list.py", line 321, in __init__
+    super().__init__(*items)
+    ~~~~~~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\contrib\admin\templatetags\admin_list.py", line 219, in items_for_result
+    f, attr, value = lookup_field(field_name, result, cl.model_admin)
+                     ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\contrib\admin\utils.py", line 299, in lookup_field
+    value = attr(obj)
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\contrib\admin\options.py", line 1031, in action_checkbox
+    _("Select this object for an action - {}"), str(obj)
+                                                ~~~^^^^^
+  File "C:\Users\nob22\Desktop\LR5\hello_django\djangoenv\start\hello\models.py", line 56, in __str__
+    return self.name()
+           ~~~~~~~~~^^
+TypeError: 'str' object is not callable
+2025-06-01 13:42:17,445 WARNING Client not found.
+2025-06-01 13:42:17,445 WARNING Not Found: /login/
+2025-06-01 13:43:08,362 WARNING Client not found.
+2025-06-01 13:43:08,362 WARNING Not Found: /login/
+2025-06-01 13:43:14,651 WARNING Master not found.
+2025-06-01 13:43:14,651 WARNING Not Found: /login/
+2025-06-01 13:44:08,697 WARNING Forbidden (CSRF token from POST incorrect.): /
+2025-06-01 13:44:31,555 WARNING Forbidden (CSRF token from POST incorrect.): /
+2025-06-01 13:44:34,705 WARNING Forbidden (CSRF token from POST incorrect.): /
+2025-06-01 13:45:30,999 WARNING Not Found: /main/
+2025-06-01 13:47:08,089 WARNING Client not found.
+2025-06-01 13:47:08,090 WARNING Not Found: /login/
+2025-06-01 13:47:16,323 WARNING Client not found.
+2025-06-01 13:47:16,323 WARNING Not Found: /login/
+2025-06-01 13:47:26,002 WARNING Master not found.
+2025-06-01 13:47:26,002 WARNING Not Found: /login/
+2025-06-01 13:53:42,670 INFO Random Cat Fact - 2025-06-01 13:53:42.662622 is saved.
+2025-06-01 13:53:51,327 WARNING Client not found.
+2025-06-01 13:53:51,327 WARNING Not Found: /login/
+2025-06-01 13:53:57,514 INFO Master MyName added.
+2025-06-01 13:56:02,504 INFO Random Cat Fact - 2025-06-01 13:56:02.499410 is saved.
+2025-06-01 13:56:09,757 INFO Master MyName added.
+2025-06-01 13:56:22,998 INFO Random Cat Fact - 2025-06-01 13:56:22.993996 is saved.
+2025-06-01 13:56:28,496 INFO Client Myname2 added.
+2025-06-01 13:56:53,566 ERROR Internal Server Error: /login/client/editclient/10
+Traceback (most recent call last):
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\nob22\Desktop\LR5\hello_django\djangoenv\start\hello\views.py", line 298, in editclient
+    Client.objects.filter(id = client_id).update(name=tname, age=tage, phone_number=tphone_number, car_model=tmodel, car_type=ttype)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\models\query.py", line 1259, in update
+    rows = query.get_compiler(self.db).execute_sql(ROW_COUNT)
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\models\sql\compiler.py", line 2060, in execute_sql
+    row_count = super().execute_sql(result_type)
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\models\sql\compiler.py", line 1610, in execute_sql
+    sql, params = self.as_sql()
+                  ~~~~~~~~~~~^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\models\sql\compiler.py", line 2023, in as_sql
+    val = field.get_db_prep_save(val, connection=self.connection)
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\models\fields\__init__.py", line 1012, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\models\fields\__init__.py", line 1542, in get_db_prep_value
+    value = self.get_prep_value(value)
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\models\fields\__init__.py", line 1537, in get_prep_value
+    return self.to_python(value)
+           ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\models\fields\__init__.py", line 1503, in to_python
+    raise exceptions.ValidationError(
+    ...<3 lines>...
+    )
+django.core.exceptions.ValidationError: ['У22Ф value has an invalid date format. It must be in YYYY-MM-DD format.']
+2025-06-01 13:56:58,648 ERROR Internal Server Error: /login/client/editclient/10
+Traceback (most recent call last):
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\nob22\Desktop\LR5\hello_django\djangoenv\start\hello\views.py", line 298, in editclient
+    Client.objects.filter(id = client_id).update(name=tname, age=tage, phone_number=tphone_number, car_model=tmodel, car_type=ttype)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\models\query.py", line 1259, in update
+    rows = query.get_compiler(self.db).execute_sql(ROW_COUNT)
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\models\sql\compiler.py", line 2060, in execute_sql
+    row_count = super().execute_sql(result_type)
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\models\sql\compiler.py", line 1610, in execute_sql
+    sql, params = self.as_sql()
+                  ~~~~~~~~~~~^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\models\sql\compiler.py", line 2023, in as_sql
+    val = field.get_db_prep_save(val, connection=self.connection)
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\models\fields\__init__.py", line 1012, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\models\fields\__init__.py", line 1542, in get_db_prep_value
+    value = self.get_prep_value(value)
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\models\fields\__init__.py", line 1537, in get_prep_value
+    return self.to_python(value)
+           ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\models\fields\__init__.py", line 1503, in to_python
+    raise exceptions.ValidationError(
+    ...<3 lines>...
+    )
+django.core.exceptions.ValidationError: ['У22Ф value has an invalid date format. It must be in YYYY-MM-DD format.']
+2025-06-01 13:57:23,701 ERROR Internal Server Error: /login/client/editclient/10
+Traceback (most recent call last):
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\nob22\Desktop\LR5\hello_django\djangoenv\start\hello\views.py", line 298, in editclient
+    Client.objects.filter(id = client_id).update(name=tname, age=tage, phone_number=tphone_number, car_model=tmodel, car_type=ttype)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\models\query.py", line 1259, in update
+    rows = query.get_compiler(self.db).execute_sql(ROW_COUNT)
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\models\sql\compiler.py", line 2060, in execute_sql
+    row_count = super().execute_sql(result_type)
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\models\sql\compiler.py", line 1610, in execute_sql
+    sql, params = self.as_sql()
+                  ~~~~~~~~~~~^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\models\sql\compiler.py", line 2023, in as_sql
+    val = field.get_db_prep_save(val, connection=self.connection)
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\models\fields\__init__.py", line 1012, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\models\fields\__init__.py", line 1542, in get_db_prep_value
+    value = self.get_prep_value(value)
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\models\fields\__init__.py", line 1537, in get_prep_value
+    return self.to_python(value)
+           ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\models\fields\__init__.py", line 1503, in to_python
+    raise exceptions.ValidationError(
+    ...<3 lines>...
+    )
+django.core.exceptions.ValidationError: ['У1222Ф value has an invalid date format. It must be in YYYY-MM-DD format.']
+2025-06-01 13:58:12,457 INFO Random Cat Fact - 2025-06-01 13:58:12.450433 is saved.
+2025-06-01 13:58:26,227 INFO Random Cat Fact - 2025-06-01 13:58:26.220471 is saved.
+2025-06-01 14:08:09,678 INFO Random Cat Fact - 2025-06-01 14:08:09.671639 is saved.
+2025-06-01 14:08:14,333 INFO Random Cat Fact - 2025-06-01 14:08:14.327085 is saved.
+2025-06-01 14:22:12,590 INFO C:\Users\nob22\Desktop\LR5\hello_django\djangoenv\start\hello\views.py changed, reloading.
+2025-06-01 14:22:50,590 INFO C:\Users\nob22\Desktop\LR5\hello_django\djangoenv\start\start\urls.py changed, reloading.
+2025-06-01 14:23:01,999 INFO C:\Users\nob22\Desktop\LR5\hello_django\djangoenv\start\hello\views.py changed, reloading.
+2025-06-01 14:26:05,791 INFO Random Cat Fact - 2025-06-01 14:26:05.783686 is saved.
+2025-06-01 14:26:17,593 WARNING Not Found: /.well-known/appspecific/com.chrome.devtools.json
+2025-06-01 14:27:10,489 INFO C:\Users\nob22\Desktop\LR5\hello_django\djangoenv\start\hello\views.py changed, reloading.
+2025-06-01 14:27:38,214 INFO C:\Users\nob22\Desktop\LR5\hello_django\djangoenv\start\hello\views.py changed, reloading.
+2025-06-01 14:27:43,324 INFO Random Cat Fact - 2025-06-01 14:27:43.318339 is saved.
+2025-06-01 14:27:43,393 WARNING Not Found: /.well-known/appspecific/com.chrome.devtools.json
+2025-06-01 14:27:52,277 INFO Random Cat Fact - 2025-06-01 14:27:52.269974 is saved.
+2025-06-01 14:27:59,046 WARNING Not Found: /.well-known/appspecific/com.chrome.devtools.json
+2025-06-01 14:31:26,953 INFO C:\Users\nob22\Desktop\LR5\hello_django\djangoenv\start\hello\views.py changed, reloading.
+2025-06-01 14:31:34,134 INFO Random Cat Fact - 2025-06-01 14:31:34.129515 is saved.
+2025-06-01 14:33:12,043 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-01 14:33:12,043 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-01 14:33:12,227 ERROR Internal Server Error: /stats/
+Traceback (most recent call last):
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\nob22\Desktop\LR5\hello_django\djangoenv\start\hello\views.py", line 54, in stats
+    plt.savefig(graph_path)
+    ~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\matplotlib\pyplot.py", line 1251, in savefig
+    res = fig.savefig(*args, **kwargs)  # type: ignore[func-returns-value]
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\matplotlib\figure.py", line 3490, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\matplotlib\backend_bases.py", line 2184, in print_figure
+    result = print_method(
+        filename,
+    ...<3 lines>...
+        bbox_inches_restore=_bbox_inches_restore,
+        **kwargs)
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\matplotlib\backend_bases.py", line 2040, in <lambda>
+    print_method = functools.wraps(meth)(lambda *args, **kwargs: meth(
+                                                                 ~~~~^
+        *args, **{k: v for k, v in kwargs.items() if k not in skip}))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\matplotlib\backends\backend_agg.py", line 481, in print_png
+    self._print_pil(filename_or_obj, "png", pil_kwargs, metadata)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\matplotlib\backends\backend_agg.py", line 430, in _print_pil
+    mpl.image.imsave(
+    ~~~~~~~~~~~~~~~~^
+        filename_or_obj, self.buffer_rgba(), format=fmt, origin="upper",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        dpi=self.figure.dpi, metadata=metadata, pil_kwargs=pil_kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\matplotlib\image.py", line 1657, in imsave
+    image.save(fname, **pil_kwargs)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\PIL\Image.py", line 2576, in save
+    fp = builtins.open(filename, "w+b")
+FileNotFoundError: [Errno 2] No such file or directory: '/static/orders_last_7_days.png'
+2025-06-01 14:34:14,437 INFO C:\Users\nob22\Desktop\LR5\hello_django\djangoenv\start\hello\views.py changed, reloading.
+2025-06-01 14:34:19,237 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-01 14:34:19,238 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-01 14:34:19,333 ERROR Internal Server Error: /stats/
+Traceback (most recent call last):
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\nob22\Desktop\LR5\hello_django\djangoenv\start\hello\views.py", line 54, in stats
+    plt.savefig(graph_path)
+    ~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\matplotlib\pyplot.py", line 1251, in savefig
+    res = fig.savefig(*args, **kwargs)  # type: ignore[func-returns-value]
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\matplotlib\figure.py", line 3490, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\matplotlib\backend_bases.py", line 2184, in print_figure
+    result = print_method(
+        filename,
+    ...<3 lines>...
+        bbox_inches_restore=_bbox_inches_restore,
+        **kwargs)
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\matplotlib\backend_bases.py", line 2040, in <lambda>
+    print_method = functools.wraps(meth)(lambda *args, **kwargs: meth(
+                                                                 ~~~~^
+        *args, **{k: v for k, v in kwargs.items() if k not in skip}))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\matplotlib\backends\backend_agg.py", line 481, in print_png
+    self._print_pil(filename_or_obj, "png", pil_kwargs, metadata)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\matplotlib\backends\backend_agg.py", line 430, in _print_pil
+    mpl.image.imsave(
+    ~~~~~~~~~~~~~~~~^
+        filename_or_obj, self.buffer_rgba(), format=fmt, origin="upper",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        dpi=self.figure.dpi, metadata=metadata, pil_kwargs=pil_kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\matplotlib\image.py", line 1657, in imsave
+    image.save(fname, **pil_kwargs)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\PIL\Image.py", line 2576, in save
+    fp = builtins.open(filename, "w+b")
+FileNotFoundError: [Errno 2] No such file or directory: '/static/orders_last_7_days.png'
+2025-06-01 14:36:07,773 INFO C:\Users\nob22\Desktop\LR5\hello_django\djangoenv\start\start\settings.py changed, reloading.
+2025-06-01 14:37:24,314 INFO C:\Users\nob22\Desktop\LR5\hello_django\djangoenv\start\hello\views.py changed, reloading.
+2025-06-01 14:37:30,414 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-01 14:37:30,415 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-01 14:37:30,522 ERROR Internal Server Error: /stats/
+Traceback (most recent call last):
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\nob22\Desktop\LR5\hello_django\djangoenv\start\hello\views.py", line 54, in stats
+    plt.savefig(graph_path)
+    ~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\matplotlib\pyplot.py", line 1251, in savefig
+    res = fig.savefig(*args, **kwargs)  # type: ignore[func-returns-value]
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\matplotlib\figure.py", line 3490, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\matplotlib\backend_bases.py", line 2184, in print_figure
+    result = print_method(
+        filename,
+    ...<3 lines>...
+        bbox_inches_restore=_bbox_inches_restore,
+        **kwargs)
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\matplotlib\backend_bases.py", line 2040, in <lambda>
+    print_method = functools.wraps(meth)(lambda *args, **kwargs: meth(
+                                                                 ~~~~^
+        *args, **{k: v for k, v in kwargs.items() if k not in skip}))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\matplotlib\backends\backend_agg.py", line 481, in print_png
+    self._print_pil(filename_or_obj, "png", pil_kwargs, metadata)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\matplotlib\backends\backend_agg.py", line 430, in _print_pil
+    mpl.image.imsave(
+    ~~~~~~~~~~~~~~~~^
+        filename_or_obj, self.buffer_rgba(), format=fmt, origin="upper",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        dpi=self.figure.dpi, metadata=metadata, pil_kwargs=pil_kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\matplotlib\image.py", line 1657, in imsave
+    image.save(fname, **pil_kwargs)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\PIL\Image.py", line 2576, in save
+    fp = builtins.open(filename, "w+b")
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\nob22\\Desktop\\LR5\\hello_django\\djangoenv\\start\\media\\orders_last_7_days.png'
+2025-06-01 14:38:24,943 INFO C:\Users\nob22\Desktop\LR5\hello_django\djangoenv\start\hello\views.py changed, reloading.
+2025-06-01 14:38:30,191 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-01 14:38:30,192 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-01 14:38:30,299 ERROR Internal Server Error: /stats/
+Traceback (most recent call last):
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\nob22\Desktop\LR5\hello_django\djangoenv\start\hello\views.py", line 54, in stats
+    plt.savefig(graph_path)
+    ~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\matplotlib\pyplot.py", line 1251, in savefig
+    res = fig.savefig(*args, **kwargs)  # type: ignore[func-returns-value]
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\matplotlib\figure.py", line 3490, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\matplotlib\backend_bases.py", line 2184, in print_figure
+    result = print_method(
+        filename,
+    ...<3 lines>...
+        bbox_inches_restore=_bbox_inches_restore,
+        **kwargs)
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\matplotlib\backend_bases.py", line 2040, in <lambda>
+    print_method = functools.wraps(meth)(lambda *args, **kwargs: meth(
+                                                                 ~~~~^
+        *args, **{k: v for k, v in kwargs.items() if k not in skip}))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\matplotlib\backends\backend_agg.py", line 481, in print_png
+    self._print_pil(filename_or_obj, "png", pil_kwargs, metadata)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\matplotlib\backends\backend_agg.py", line 430, in _print_pil
+    mpl.image.imsave(
+    ~~~~~~~~~~~~~~~~^
+        filename_or_obj, self.buffer_rgba(), format=fmt, origin="upper",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        dpi=self.figure.dpi, metadata=metadata, pil_kwargs=pil_kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\matplotlib\image.py", line 1657, in imsave
+    image.save(fname, **pil_kwargs)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\PIL\Image.py", line 2576, in save
+    fp = builtins.open(filename, "w+b")
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\nob22\\Desktop\\LR5\\hello_django\\djangoenv\\start\\media\\orders_last_7_days.png'
+2025-06-01 14:39:27,207 INFO C:\Users\nob22\Desktop\LR5\hello_django\djangoenv\start\start\settings.py changed, reloading.
+2025-06-01 14:39:32,685 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-01 14:39:32,686 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-01 14:39:32,797 ERROR Internal Server Error: /stats/
+Traceback (most recent call last):
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\nob22\Desktop\LR5\hello_django\djangoenv\start\hello\views.py", line 54, in stats
+    plt.savefig(graph_path)
+    ~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\matplotlib\pyplot.py", line 1251, in savefig
+    res = fig.savefig(*args, **kwargs)  # type: ignore[func-returns-value]
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\matplotlib\figure.py", line 3490, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\matplotlib\backend_bases.py", line 2184, in print_figure
+    result = print_method(
+        filename,
+    ...<3 lines>...
+        bbox_inches_restore=_bbox_inches_restore,
+        **kwargs)
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\matplotlib\backend_bases.py", line 2040, in <lambda>
+    print_method = functools.wraps(meth)(lambda *args, **kwargs: meth(
+                                                                 ~~~~^
+        *args, **{k: v for k, v in kwargs.items() if k not in skip}))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\matplotlib\backends\backend_agg.py", line 481, in print_png
+    self._print_pil(filename_or_obj, "png", pil_kwargs, metadata)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\matplotlib\backends\backend_agg.py", line 430, in _print_pil
+    mpl.image.imsave(
+    ~~~~~~~~~~~~~~~~^
+        filename_or_obj, self.buffer_rgba(), format=fmt, origin="upper",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        dpi=self.figure.dpi, metadata=metadata, pil_kwargs=pil_kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\matplotlib\image.py", line 1657, in imsave
+    image.save(fname, **pil_kwargs)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\PIL\Image.py", line 2576, in save
+    fp = builtins.open(filename, "w+b")
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\nob22\\Desktop\\LR5\\hello_django\\djangoenv\\start\\media\\orders_last_7_days.png'
+2025-06-01 14:40:45,117 INFO C:\Users\nob22\Desktop\LR5\hello_django\djangoenv\start\hello\views.py changed, reloading.
+2025-06-01 14:40:49,453 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-01 14:40:49,454 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-01 14:40:49,599 ERROR Internal Server Error: /stats/
+Traceback (most recent call last):
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\nob22\Desktop\LR5\hello_django\djangoenv\start\hello\views.py", line 62, in stats
+    return render(request, 'stats.html', context)
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: stats.html
+2025-06-01 14:42:29,368 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-01 14:42:29,369 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-01 14:42:39,416 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-01 14:42:39,417 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-01 14:42:46,362 WARNING Not Found: /.well-known/appspecific/com.chrome.devtools.json
+2025-06-01 14:43:58,997 INFO C:\Users\nob22\Desktop\LR5\hello_django\djangoenv\start\hello\views.py changed, reloading.
+2025-06-01 14:44:44,009 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-01 14:44:44,011 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-01 14:44:44,142 WARNING Not Found: /orders_last_7_days.png
+2025-06-01 14:44:44,148 WARNING Not Found: /.well-known/appspecific/com.chrome.devtools.json
+2025-06-01 14:44:46,759 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-01 14:44:46,760 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-01 14:44:46,851 WARNING Not Found: /orders_last_7_days.png
+2025-06-01 14:44:53,774 WARNING Not Found: /.well-known/appspecific/com.chrome.devtools.json
+2025-06-01 14:46:24,598 INFO C:\Users\nob22\Desktop\LR5\hello_django\djangoenv\start\start\urls.py changed, reloading.
+2025-06-01 14:48:11,189 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-01 14:48:11,190 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-01 14:48:11,347 WARNING Not Found: /.well-known/appspecific/com.chrome.devtools.json
+2025-06-01 14:48:33,301 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-01 14:48:33,302 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-01 14:49:02,156 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-01 14:49:02,157 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-01 14:52:53,382 INFO C:\Users\nob22\Desktop\LR5\hello_django\djangoenv\start\hello\views.py changed, reloading.
+2025-06-01 14:55:13,942 INFO Random Cat Fact - 2025-06-01 14:55:13.935593 is saved.
+2025-06-01 14:55:22,380 INFO Client Myname2 added.
+2025-06-01 14:58:27,814 ERROR Internal Server Error: /statistics/
+Traceback (most recent call last):
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\nob22\Desktop\LR5\hello_django\djangoenv\start\hello\views.py", line 152, in statisticsv
+    day = today - timedelta(days=6 - i)
+                  ^^^^^^^^^
+NameError: name 'timedelta' is not defined
+2025-06-01 14:59:05,400 INFO C:\Users\nob22\Desktop\LR5\hello_django\djangoenv\start\hello\views.py changed, reloading.
+2025-06-10 10:49:58,950 INFO Random Cat Fact - 2025-06-10 10:49:58.911049 is saved.
+2025-06-10 10:50:02,446 WARNING Not Found: /favicon.ico
+2025-06-10 10:52:25,594 INFO Random Cat Fact - 2025-06-10 10:52:25.584352 is saved.
+2025-06-10 10:52:40,906 WARNING Client not found.
+2025-06-10 10:52:40,906 WARNING Not Found: /login/
+2025-06-10 10:52:51,034 INFO Master MyName added.
+2025-06-10 10:56:23,625 INFO C:\Users\nob22\Desktop\LR5\hello_django\djangoenv\start\hello\models.py changed, reloading.
+2025-06-10 10:56:27,888 INFO C:\Users\nob22\Desktop\LR5\hello_django\djangoenv\start\hello\views.py changed, reloading.
+2025-06-10 10:57:02,205 INFO C:\Users\nob22\Desktop\LR5\hello_django\djangoenv\start\hello\models.py changed, reloading.
+2025-06-10 10:57:38,222 INFO C:\Users\nob22\Desktop\LR5\hello_django\djangoenv\start\hello\views.py changed, reloading.
+2025-06-10 11:00:20,786 INFO C:\Users\nob22\Desktop\LR5\hello_django\djangoenv\start\hello\views.py changed, reloading.
+2025-06-10 11:02:23,890 ERROR Internal Server Error: /login/master/editmaster/12
+Traceback (most recent call last):
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\nob22\Desktop\LR5\hello_django\djangoenv\start\hello\views.py", line 370, in editmaster
+    mast.save()
+    ~~~~~~~~~^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\models\base.py", line 902, in save
+    self.save_base(
+    ~~~~~~~~~~~~~~^
+        using=using,
+        ^^^^^^^^^^^^
+    ...<2 lines>...
+        update_fields=update_fields,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\models\base.py", line 1008, in save_base
+    updated = self._save_table(
+        raw,
+    ...<4 lines>...
+        update_fields,
+    )
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\models\base.py", line 1138, in _save_table
+    updated = self._do_update(
+        base_qs, using, pk_val, values, update_fields, forced_update
+    )
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\models\base.py", line 1203, in _do_update
+    return filtered._update(values) > 0
+           ~~~~~~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\models\query.py", line 1284, in _update
+    return query.get_compiler(self.db).execute_sql(ROW_COUNT)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\models\sql\compiler.py", line 2060, in execute_sql
+    row_count = super().execute_sql(result_type)
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\models\sql\compiler.py", line 1610, in execute_sql
+    sql, params = self.as_sql()
+                  ~~~~~~~~~~~^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\models\sql\compiler.py", line 2023, in as_sql
+    val = field.get_db_prep_save(val, connection=self.connection)
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\models\fields\__init__.py", line 1012, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\models\fields\__init__.py", line 1542, in get_db_prep_value
+    value = self.get_prep_value(value)
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\models\fields\__init__.py", line 1537, in get_prep_value
+    return self.to_python(value)
+           ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\models\fields\__init__.py", line 1503, in to_python
+    raise exceptions.ValidationError(
+    ...<3 lines>...
+    )
+django.core.exceptions.ValidationError: ['УФ value has an invalid date format. It must be in YYYY-MM-DD format.']
+2025-06-10 11:04:13,316 INFO C:\Users\nob22\Desktop\LR5\hello_django\djangoenv\start\hello\views.py changed, reloading.
+2025-06-10 11:05:18,215 INFO C:\Users\nob22\Desktop\LR5\hello_django\djangoenv\start\hello\views.py changed, reloading.
+2025-06-10 11:07:54,291 INFO C:\Users\nob22\Desktop\LR5\hello_django\djangoenv\start\hello\views.py changed, reloading.
+2025-06-10 11:08:12,677 INFO C:\Users\nob22\Desktop\LR5\hello_django\djangoenv\start\hello\views.py changed, reloading.
+2025-06-10 11:08:38,659 INFO Random Cat Fact - 2025-06-10 11:08:38.652632 is saved.
+2025-06-10 11:08:47,585 INFO Random Cat Fact - 2025-06-10 11:08:47.555167 is saved.
+2025-06-10 11:10:54,295 WARNING Not Found: /.well-known/appspecific/com.chrome.devtools.json
+2025-06-10 11:14:06,611 ERROR Internal Server Error: /admin/hello/review/7/change/
+Traceback (most recent call last):
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\defaulttags.py", line 243, in render
+    nodelist.append(node.render_annotated(context))
+                    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loader_tags.py", line 210, in render
+    return template.render(context)
+           ~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 173, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\defaulttags.py", line 243, in render
+    nodelist.append(node.render_annotated(context))
+                    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\defaulttags.py", line 243, in render
+    nodelist.append(node.render_annotated(context))
+                    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\defaulttags.py", line 327, in render
+    return nodelist.render(context)
+           ~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\defaulttags.py", line 327, in render
+    return nodelist.render(context)
+           ~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 1081, in render
+    return render_value_in_context(output, context)
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 1058, in render_value_in_context
+    value = str(value)
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\forms\utils.py", line 79, in __str__
+    return self.as_widget()
+           ~~~~~~~~~~~~~~^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\forms\boundfield.py", line 108, in as_widget
+    return widget.render(
+           ~~~~~~~~~~~~~^
+        name=self.html_initial_name if only_initial else self.html_name,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        renderer=self.form.renderer,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\forms\widgets.py", line 329, in render
+    context = self.get_context(name, value, attrs)
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\contrib\admin\widgets.py", line 329, in get_context
+    "rendered_widget": self.widget.render(name, value, attrs),
+                       ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\forms\widgets.py", line 329, in render
+    context = self.get_context(name, value, attrs)
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\forms\widgets.py", line 830, in get_context
+    context = super().get_context(name, value, attrs)
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\forms\widgets.py", line 781, in get_context
+    context["widget"]["optgroups"] = self.optgroups(
+                                     ~~~~~~~~~~~~~~^
+        name, context["widget"]["value"], attrs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\forms\widgets.py", line 721, in optgroups
+    for index, (option_value, option_label) in enumerate(self.choices):
+                                               ~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\forms\models.py", line 1425, in __iter__
+    yield self.choice(obj)
+          ~~~~~~~~~~~^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\forms\models.py", line 1439, in choice
+    self.field.label_from_instance(obj),
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\forms\models.py", line 1529, in label_from_instance
+    return str(obj)
+  File "C:\Users\nob22\Desktop\LR5\hello_django\djangoenv\start\hello\models.py", line 56, in __str__
+    return self.name()
+           ~~~~~~~~~^^
+TypeError: 'str' object is not callable
+2025-06-10 11:14:10,267 ERROR Internal Server Error: /admin/hello/review/1/change/
+Traceback (most recent call last):
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\defaulttags.py", line 243, in render
+    nodelist.append(node.render_annotated(context))
+                    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loader_tags.py", line 210, in render
+    return template.render(context)
+           ~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 173, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\defaulttags.py", line 243, in render
+    nodelist.append(node.render_annotated(context))
+                    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\defaulttags.py", line 243, in render
+    nodelist.append(node.render_annotated(context))
+                    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\defaulttags.py", line 327, in render
+    return nodelist.render(context)
+           ~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\defaulttags.py", line 327, in render
+    return nodelist.render(context)
+           ~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 1081, in render
+    return render_value_in_context(output, context)
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 1058, in render_value_in_context
+    value = str(value)
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\forms\utils.py", line 79, in __str__
+    return self.as_widget()
+           ~~~~~~~~~~~~~~^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\forms\boundfield.py", line 108, in as_widget
+    return widget.render(
+           ~~~~~~~~~~~~~^
+        name=self.html_initial_name if only_initial else self.html_name,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        renderer=self.form.renderer,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\forms\widgets.py", line 329, in render
+    context = self.get_context(name, value, attrs)
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\contrib\admin\widgets.py", line 329, in get_context
+    "rendered_widget": self.widget.render(name, value, attrs),
+                       ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\forms\widgets.py", line 329, in render
+    context = self.get_context(name, value, attrs)
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\forms\widgets.py", line 830, in get_context
+    context = super().get_context(name, value, attrs)
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\forms\widgets.py", line 781, in get_context
+    context["widget"]["optgroups"] = self.optgroups(
+                                     ~~~~~~~~~~~~~~^
+        name, context["widget"]["value"], attrs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\forms\widgets.py", line 721, in optgroups
+    for index, (option_value, option_label) in enumerate(self.choices):
+                                               ~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\forms\models.py", line 1425, in __iter__
+    yield self.choice(obj)
+          ~~~~~~~~~~~^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\forms\models.py", line 1439, in choice
+    self.field.label_from_instance(obj),
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\forms\models.py", line 1529, in label_from_instance
+    return str(obj)
+  File "C:\Users\nob22\Desktop\LR5\hello_django\djangoenv\start\hello\models.py", line 56, in __str__
+    return self.name()
+           ~~~~~~~~~^^
+TypeError: 'str' object is not callable
+2025-06-10 11:17:08,724 INFO C:\Users\nob22\Desktop\LR5\hello_django\djangoenv\start\hello\views.py changed, reloading.
+2025-06-10 11:17:30,030 INFO Random Cat Fact - 2025-06-10 11:17:30.019192 is saved.
+2025-06-10 11:17:38,050 INFO C:\Users\nob22\Desktop\LR5\hello_django\djangoenv\start\hello\views.py changed, reloading.
+2025-06-10 11:17:41,537 INFO Random Cat Fact - 2025-06-10 11:17:41.531540 is saved.
+2025-06-10 11:17:42,887 INFO Random Cat Fact - 2025-06-10 11:17:42.879863 is saved.
+2025-06-10 11:22:44,604 INFO C:\Users\nob22\Desktop\LR5\hello_django\djangoenv\start\hello\models.py changed, reloading.
+2025-06-10 11:23:54,215 ERROR Internal Server Error: /news/
+Traceback (most recent call last):
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\backends\sqlite3\base.py", line 360, in execute
+    return super().execute(query, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: hello_article.img_url
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\nob22\Desktop\LR5\hello_django\djangoenv\start\hello\views.py", line 204, in news
+    return render(request, "news.html", {"articles" : artcs})
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\defaulttags.py", line 326, in render
+    if match:
+       ^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\models\query.py", line 398, in __bool__
+    self._fetch_all()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\models\query.py", line 1945, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+        chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size
+    )
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\models\sql\compiler.py", line 1623, in execute_sql
+    cursor.execute(sql, params)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sql, params, many=False, executor=self._execute
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\backends\sqlite3\base.py", line 360, in execute
+    return super().execute(query, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: hello_article.img_url
+2025-06-10 11:23:55,592 ERROR Internal Server Error: /news/
+Traceback (most recent call last):
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\backends\sqlite3\base.py", line 360, in execute
+    return super().execute(query, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: hello_article.img_url
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\nob22\Desktop\LR5\hello_django\djangoenv\start\hello\views.py", line 204, in news
+    return render(request, "news.html", {"articles" : artcs})
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\defaulttags.py", line 326, in render
+    if match:
+       ^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\models\query.py", line 398, in __bool__
+    self._fetch_all()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\models\query.py", line 1945, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+        chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size
+    )
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\models\sql\compiler.py", line 1623, in execute_sql
+    cursor.execute(sql, params)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sql, params, many=False, executor=self._execute
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\backends\sqlite3\base.py", line 360, in execute
+    return super().execute(query, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: hello_article.img_url
+2025-06-10 11:24:54,374 ERROR Internal Server Error: /news/
+Traceback (most recent call last):
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\backends\sqlite3\base.py", line 360, in execute
+    return super().execute(query, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: hello_article.img_url
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\nob22\Desktop\LR5\hello_django\djangoenv\start\hello\views.py", line 204, in news
+    return render(request, "news.html", {"articles" : artcs})
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\defaulttags.py", line 326, in render
+    if match:
+       ^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\models\query.py", line 398, in __bool__
+    self._fetch_all()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\models\query.py", line 1945, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+        chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size
+    )
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\models\sql\compiler.py", line 1623, in execute_sql
+    cursor.execute(sql, params)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sql, params, many=False, executor=self._execute
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\backends\sqlite3\base.py", line 360, in execute
+    return super().execute(query, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: hello_article.img_url
+2025-06-10 11:24:58,528 ERROR Internal Server Error: /news/
+Traceback (most recent call last):
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\backends\sqlite3\base.py", line 360, in execute
+    return super().execute(query, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: hello_article.img_url
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\nob22\Desktop\LR5\hello_django\djangoenv\start\hello\views.py", line 204, in news
+    return render(request, "news.html", {"articles" : artcs})
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\defaulttags.py", line 326, in render
+    if match:
+       ^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\models\query.py", line 398, in __bool__
+    self._fetch_all()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\models\query.py", line 1945, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+        chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size
+    )
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\models\sql\compiler.py", line 1623, in execute_sql
+    cursor.execute(sql, params)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sql, params, many=False, executor=self._execute
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\backends\sqlite3\base.py", line 360, in execute
+    return super().execute(query, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: hello_article.img_url
+2025-06-10 11:26:18,532 WARNING Not Found: /.well-known/appspecific/com.chrome.devtools.json
+2025-06-10 11:26:52,073 WARNING Not Found: /.well-known/appspecific/com.chrome.devtools.json
+2025-06-10 11:27:58,987 INFO Random Cat Fact - 2025-06-10 11:27:58.981243 is saved.
+2025-06-10 11:27:59,023 WARNING Not Found: /.well-known/appspecific/com.chrome.devtools.json
+2025-06-10 11:28:11,795 INFO Random Cat Fact - 2025-06-10 11:28:11.785077 is saved.
+2025-06-10 11:28:15,041 INFO Random Cat Fact - 2025-06-10 11:28:15.028569 is saved.
+2025-06-10 11:30:18,219 INFO C:\Users\nob22\Desktop\LR5\hello_django\djangoenv\start\hello\views.py changed, reloading.
+2025-06-10 11:30:37,495 INFO C:\Users\nob22\Desktop\LR5\hello_django\djangoenv\start\hello\models.py changed, reloading.
+2025-06-10 11:34:41,943 INFO Random Cat Fact - 2025-06-10 11:34:41.935652 is saved.
+2025-06-10 11:34:42,768 INFO Random Cat Fact - 2025-06-10 11:34:42.760579 is saved.
+2025-06-10 11:34:43,447 INFO Random Cat Fact - 2025-06-10 11:34:43.440383 is saved.
+2025-06-10 11:34:44,161 INFO Random Cat Fact - 2025-06-10 11:34:44.155105 is saved.
+2025-06-10 11:34:44,786 INFO Random Cat Fact - 2025-06-10 11:34:44.778998 is saved.
+2025-06-10 11:35:30,923 INFO Random Cat Fact - 2025-06-10 11:35:30.907200 is saved.
+2025-06-10 11:37:27,895 INFO Random Cat Fact - 2025-06-10 11:37:27.887317 is saved.
+2025-06-10 11:37:30,446 INFO Random Cat Fact - 2025-06-10 11:37:30.433133 is saved.
+2025-06-10 11:37:34,382 INFO Random Cat Fact - 2025-06-10 11:37:34.371605 is saved.
+2025-06-10 11:42:27,815 INFO Client Myname2 added.
+2025-06-10 11:43:05,337 INFO Random Cat Fact - 2025-06-10 11:43:05.327858 is saved.
+2025-06-10 11:45:29,963 INFO Client Myname2 added.
+2025-06-10 11:48:00,508 INFO C:\Users\nob22\Desktop\LR5\hello_django\djangoenv\start\hello\models.py changed, reloading.
+2025-06-10 11:49:29,581 INFO C:\Users\nob22\Desktop\LR5\hello_django\djangoenv\start\hello\views.py changed, reloading.
+2025-06-10 11:49:54,981 INFO C:\Users\nob22\Desktop\LR5\hello_django\djangoenv\start\hello\views.py changed, reloading.
+2025-06-10 11:54:30,334 INFO Random Cat Fact - 2025-06-10 11:54:30.323279 is saved.
+2025-06-10 11:54:40,048 INFO Client Myname2 added.
+2025-06-10 11:55:32,775 INFO Random Cat Fact - 2025-06-10 11:55:32.764742 is saved.
+2025-06-10 11:55:42,027 INFO Random Cat Fact - 2025-06-10 11:55:42.020503 is saved.
+2025-06-10 11:55:51,744 INFO Client Myname2 added.
+2025-06-10 11:56:34,426 WARNING Master not found.
+2025-06-10 11:56:34,427 WARNING Not Found: /login/
+2025-06-10 11:56:52,360 INFO Master алексей added.
+2025-06-10 11:57:46,320 INFO Random Cat Fact - 2025-06-10 11:57:46.314609 is saved.
+2025-06-10 11:57:55,002 INFO Client Myname2 added.
+2025-06-10 11:58:49,708 INFO Random Cat Fact - 2025-06-10 11:58:49.698655 is saved.
+2025-06-10 11:59:16,644 INFO Random Cat Fact - 2025-06-10 11:59:16.637134 is saved.
+2025-06-10 11:59:25,933 INFO Client Myname2 added.
+2025-06-10 11:59:46,175 INFO Random Cat Fact - 2025-06-10 11:59:46.170497 is saved.

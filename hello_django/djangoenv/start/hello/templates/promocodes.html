@@ -1,0 +1,49 @@
+{% extends "menu.html" %}
+{% block title %}Промокоды{% endblock title %}
+{% block header %}Промокоды{% endblock header %}
+
+{% block content %}
+<form method="POST">
+    {% csrf_token %}
+    <label>Поиск по названию:</label>
+    <input type="text" name="search_term">
+    <button type="submit">Найти</button>
+</form>
+{% if searched %}
+<table>
+    <thead> 
+        <tr> 
+            <th>Название</th> <th>Скидка</th>
+        </tr> 
+    </thead> 
+    <tbody> 
+        {% for p in searched %}
+            <tr> 
+                <td>{{ p.name }}</td> <td>{{ p.discount }}%</td>
+            </tr> 
+        {% endfor %}
+    </tbody> 
+</table>
+{% else %}
+{% endif %}
+{% if proms %}
+<table> 
+    <thead> 
+        <tr> 
+            <th>Название</th> <th>Скидка</th>
+        </tr> 
+    </thead> 
+    <tbody> 
+        {% for pr in proms %} 
+        <tr> 
+            <td>{{ pr.name }}</td> <td>{{ pr.discount }}%</td>
+        </tr> 
+        {% endfor %} 
+    </tbody> 
+</table>
+{% else %}
+<p>Действующих промокодов нет.</p>
+{% endif %}
+{% endblock content %}
+
+

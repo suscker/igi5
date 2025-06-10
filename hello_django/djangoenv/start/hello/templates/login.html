@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Вход</title>
+</head>
+<body>
+    <h1>Авторизация</h1>
+    <form method="POST">
+        {% csrf_token %}
+        <tr>
+            <td>Тип пользователя:</td>
+            <td>
+                <label><input type="radio" name="user_type" value="master"> Мастер</label>
+                <label><input type="radio" name="user_type" value="client"> Клиент</label>
+            </td>
+        </tr>
+        <table>
+            <tr>
+                <td>Логин:</td>
+                <td>{{ form.login }}</td>
+            </tr>
+            <tr>
+                <td>Пароль:</td>
+                <td>{{ form.password }}</td>
+            </tr>
+        </table>
+        <input type="submit" value="Войти">
+    </form>
+</body>
+</html>

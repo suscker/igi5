@@ -1,0 +1,21 @@
+{% extends "menu.html" %}
+{% block title %}Отзывы{% endblock title %}
+{% block header %}Отзывы{% endblock header %}
+
+{% block content %}
+<a href="/register">Оставить отзыв</a><br>
+{% if reviews %}
+    {% for review in reviews %}
+    <div>
+        <h3>{{ review.user.name }}</h3>
+        <p>{{ review.text }}</p>
+        <p>Рейтинг: {{ review.rating }} из 5</p>
+        <p>Дата: {{ review.date }}</p>
+    </div><br>
+    {% endfor %}
+{% else %}
+<p>Отзывы отсутствуют.</p>
+{% endif %}
+{% endblock content %}
+
+

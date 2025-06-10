@@ -3,21 +3,6 @@
 {% block header %}Главная{% endblock header %}
 
 {% block content %}
-{% include "menu.html" %}
-<div> 
-    {% if user_type %}
-        <p>Добро пожаловать, {{ user_name }}!</p>
-        {% if user_type == 'client' %}
-            <a href="/login/client/{{ user_id }}">Личный кабинет</a>
-        {% else %}
-            <a href="/login/master/{{ user_id }}">Личный кабинет</a>
-        {% endif %}
-        <a href="/logout">Выйти</a>
-    {% else %}
-        <a href="/login">Войти</a> 
-        <a href="/register">Зарегистрироваться</a> 
-    {% endif %}
-</div>
 <p>Текущая дата и время для Вашего часового пояса: {{ user_now }}</p>
 <p>Текущая дата и время в UTC: {{ utc_now }}</p>
 {% if article %} 

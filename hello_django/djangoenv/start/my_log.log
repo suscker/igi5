@@ -2226,3 +2226,38 @@ django.urls.exceptions.NoReverseMatch: Reverse for 'main' not found. 'main' is n
 2025-06-10 13:54:37,249 WARNING Client not found.
 2025-06-10 13:54:37,249 WARNING Not Found: /login/
 2025-06-10 13:54:46,264 INFO Master nameee added.
+2025-06-10 13:58:27,921 WARNING Forbidden (Permission denied): /login/master/4
+Traceback (most recent call last):
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\nob22\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\nob22\Desktop\LR5\hello_django\djangoenv\start\hello\views.py", line 370, in wrapper
+    raise PermissionDenied("You don't have permission to access this page")
+django.core.exceptions.PermissionDenied: You don't have permission to access this page
+2025-06-10 14:06:07,990 INFO Random Cat Fact - 2025-06-10 14:06:07.963046 is saved.
+2025-06-10 14:06:15,536 INFO Random Cat Fact - 2025-06-10 14:06:15.498217 is saved.
+2025-06-10 14:06:46,161 INFO Random Cat Fact - 2025-06-10 14:06:46.134877 is saved.
+2025-06-10 14:08:01,394 INFO Random Cat Fact - 2025-06-10 14:08:01.369051 is saved.
+2025-06-10 14:08:13,457 INFO Client Myname2 added.
+2025-06-10 14:08:30,281 INFO Random Cat Fact - 2025-06-10 14:08:30.257132 is saved.
+2025-06-10 14:08:46,979 INFO Random Cat Fact - 2025-06-10 14:08:46.947894 is saved.
+2025-06-10 14:08:51,850 INFO Random Cat Fact - 2025-06-10 14:08:51.823800 is saved.
+2025-06-10 14:09:02,742 INFO Random Cat Fact - 2025-06-10 14:09:02.717040 is saved.
+2025-06-10 14:09:58,838 INFO Random Cat Fact - 2025-06-10 14:09:58.830409 is saved.
+2025-06-10 14:10:03,881 INFO Random Cat Fact - 2025-06-10 14:10:03.849912 is saved.
+2025-06-10 14:11:01,630 INFO Client Myname2 added.
+2025-06-10 14:11:51,706 INFO Random Cat Fact - 2025-06-10 14:11:51.676849 is saved.
+2025-06-10 14:11:59,867 INFO Random Cat Fact - 2025-06-10 14:11:59.841295 is saved.
+2025-06-10 14:12:31,641 INFO Random Cat Fact - 2025-06-10 14:12:31.612581 is saved.
+2025-06-10 14:12:35,637 INFO Random Cat Fact - 2025-06-10 14:12:35.606057 is saved.
+2025-06-10 14:22:19,296 INFO Random Cat Fact - 2025-06-10 14:22:19.285124 is saved.
+2025-06-10 14:22:58,638 INFO Client Myname2 added.
+2025-06-10 14:23:04,083 INFO Random Cat Fact - 2025-06-10 14:23:04.059438 is saved.
+2025-06-10 14:23:17,951 INFO Random Cat Fact - 2025-06-10 14:23:17.922659 is saved.
+2025-06-10 14:24:35,163 INFO Random Cat Fact - 2025-06-10 14:24:35.134522 is saved.
+2025-06-10 14:26:08,393 WARNING Client not found.
+2025-06-10 14:26:08,393 WARNING Not Found: /login/
+2025-06-10 14:26:12,526 INFO Client Myname2 added.
+2025-06-10 14:27:52,859 INFO Random Cat Fact - 2025-06-10 14:27:52.823455 is saved.
+2025-06-10 14:27:59,247 INFO Master nameee added.

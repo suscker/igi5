@@ -1,0 +1,11 @@
+{% extends "menu.html" %}
+{% block title %}Услуга: {{ service.name }}{% endblock title %}
+{% block header %}{{ service.name }}{% endblock header %}
+
+{% block content %}
+<p><strong>Цена:</strong> {{ service.price }}</p>
+<p><strong>Тип:</strong> {{ service.type.name }}</p>
+<p>
+    <a href="{% url 'cart_add' service.id %}">Добавить в корзину</a>
+</p>
+{% endblock content %} 

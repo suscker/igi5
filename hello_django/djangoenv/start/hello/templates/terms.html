@@ -1,0 +1,18 @@
+{% extends "menu.html" %}
+{% block title %}Словарь терминов{% endblock title %}
+{% block header %}Словарь терминов и понятий{% endblock header %}
+
+{% block content %}
+<section>
+    {% if terms %}
+        <dl>
+            {% for t in terms %}
+                <dt><a href="{% url 'term_detail' t.id %}">{{ t.term }}</a></dt>
+                <dd><small><time datetime="{{ t.created_at|date:'c' }}">Добавлено: {{ t.created_at|date:'d.m.Y' }}</time></small></dd>
+            {% endfor %}
+        </dl>
+    {% else %}
+        <p>Термины пока не добавлены.</p>
+    {% endif %}
+</section>
+{% endblock content %} 

@@ -1,0 +1,36 @@
+{% extends "menu.html" %}
+{% block title %}Оплата{% endblock title %}
+{% block header %}Оплата заказов{% endblock header %}
+
+{% block content %}
+{% if paid %}
+<p>Спасибо! Оплачено заказов: <strong>{{ paid_count }}</strong>. Сумма: <strong>{{ total }}</strong>.</p>
+<p><a href="/">Вернуться на главную</a></p>
+{% else %}
+{% if orders %}
+<table>
+    <thead>
+        <tr>
+            <th>ID</th><th>Услуга</th><th>Сумма</th><th>Дата</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for o in orders %}
+        <tr>
+            <td>{{ o.id }}</td><td>{{ o.service.name }}</td><td>{{ o.whole_price }}</td><td>{{ o.ordering_time|date:"d.m.Y H:i" }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+    <tfoot>
+        <tr><td colspan="2" style="text-align:right">Итого к оплате:</td><td colspan="2"><strong>{{ total }}</strong></td></tr>
+    </tfoot>
+</table>
+<form method="post">
+    {% csrf_token %}
+    <button type="submit">Оплатить все</button>
+</form>
+{% else %}
+<p>Неоплаченных заказов нет.</p>
+{% endif %}
+{% endif %}
+{% endblock content %} 

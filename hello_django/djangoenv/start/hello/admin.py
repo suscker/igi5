@@ -5,9 +5,11 @@ admin.site.register(ServiceType)
 admin.site.register(Service)
 admin.site.register(CarModel)
 admin.site.register(CarType)
-admin.site.register(Client)
 admin.site.register(Specialization)
+admin.site.register(Client)
 admin.site.register(Master)
+admin.site.register(ClientCredentials)
+admin.site.register(MasterCredentials)
 admin.site.register(Promocode)
 admin.site.register(Order)
 admin.site.register(ClientMaster)
@@ -15,7 +17,10 @@ admin.site.register(QA)
 admin.site.register(Job)
 admin.site.register(Review)
 admin.site.register(Article)
-
+admin.site.register(PartnerCompany)
+admin.site.register(CompanyInfo)
+admin.site.register(Term)
+admin.site.register(StaffMember)
 
 class PartTypeAdmin(admin.ModelAdmin):
     list_display = ('name',)
@@ -38,4 +43,7 @@ class PartTypeAdmin(admin.ModelAdmin):
     display_parts_by_type.short_description = "Display parts by type"
 
 admin.site.register(PartType, PartTypeAdmin)
-admin.site.register(Part)
+# Part уже зарегистрирован выше? Регистрируем только один раз.
+# admin.site.register(Part)
+
+admin.site.register(Banner)

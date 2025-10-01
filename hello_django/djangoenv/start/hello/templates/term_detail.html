@@ -1,0 +1,10 @@
+{% extends "menu.html" %}
+{% block title %}{{ term.term }}{% endblock title %}
+{% block header %}{{ term.term }}{% endblock header %}
+
+{% block content %}
+<article>
+    <p><time datetime="{{ term.created_at|date:'c' }}">Добавлено: {{ term.created_at|date:'d.m.Y' }}</time></p>
+    <p>{{ term.definition }}</p>
+</article>
+{% endblock content %} 

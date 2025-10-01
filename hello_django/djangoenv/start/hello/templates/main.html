@@ -3,24 +3,38 @@
 {% block header %}Главная{% endblock header %}
 
 {% block content %}
+<div>
+    {% if company and company.logo %}
+        <img src="{{ company.logo.url }}" alt="Логотип" style="height:60px;">
+    {% endif %}
+</div>
+
+<div>
+    {% if banners %}
+        {% for b in banners %}
+            {% if b.target_url %}
+                <a href="{{ b.target_url }}" target="_blank">
+                    <img src="{{ b.image.url }}" alt="{{ b.alt_text }}" style="max-height:180px;margin-right:10px;">
+                </a>
+            {% else %}
+                <img src="{{ b.image.url }}" alt="{{ b.alt_text }}" style="max-height:180px;margin-right:10px;">
+            {% endif %}
+        {% endfor %}
+    {% endif %}
+</div>
+
 <p>Текущая дата и время для Вашего часового пояса: {{ user_now }}</p>
 <p>Текущая дата и время в UTC: {{ utc_now }}</p>
-{% if article %} 
-<h3>{{ article.title }}</h3> 
-<p>{{ article.text }}</p> 
-<img src="{{ article.img_url }}" width="150" height="150"> 
-{% else %} 
-<p>Нет опубликованных статей.</p> 
+
+{% if article %}
+<h3>{{ article.title }}</h3>
+<p>{{ article.text|truncatechars:200 }}</p>
+<img src="{{ article.img_url }}" width="150" height="150">
+{% else %}
+<p>Нет опубликованных статей.</p>
 {% endif %}
-<h2>Услуги</h2>
-<form method="POST">
-    {% csrf_token %}
-    <label>Стоимость от:</label>
-    <input type="number" name="price_from" required>
-    <label> до:</label>
-    <input type="number" name="price_to" required>
-    <button type="submit">Применить фильтр</button>
-</form><br>
+
+<h2>Каталог услуг</h2>
 {% if services %}
 <table>
     <thead>
@@ -28,20 +42,38 @@
             <th>Название услуги</th>
             <th>Цена</th>
             <th>Тип услуги</th>
+            <th></th>
         </tr>
     </thead>
     <tbody>
         {% for service in services %}
         <tr>
-            <td>{{ service.name }}</td>
+            <td><a href="{% url 'service_detail' service.id %}">{{ service.name }}</a></td>
             <td>{{ service.price }}</td>
             <td>{{ service.type.name }}</td>
+            <td><a href="{% url 'cart_add' service.id %}">Добавить в корзину</a></td>
         </tr>
         {% endfor %}
     </tbody>
 </table>
 {% else %}
 <p>Список услуг пока пуст.</p>
+{% endif %}
+
+<h2>Наши партнёры</h2>
+{% if partners %}
+<div>
+    {% for p in partners %}
+        <a href="{{ p.website_url }}" target="_blank" style="margin-right:10px;display:inline-block;">
+            {% if p.logo %}
+                <img src="{{ p.logo.url }}" alt="{{ p.name }}" style="height:40px;display:block;">
+            {% endif %}
+            <small>{{ p.name }}</small>
+        </a>
+    {% endfor %}
+</div>
+{% else %}
+<p>Партнёры не добавлены.</p>
 {% endif %}
 {% endblock content %}
 

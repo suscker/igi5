@@ -3,11 +3,47 @@
 {% block header %}О компании{% endblock header %}
 
 {% block content %}
-<ul>
-    <li>Опытные мастера с профильным образованием</li>
-    <li>Высокое качество работ, гарантия на все виды услуг</li>
-    <li>Использование только оригинальных запчастей</li>
-    <li>Быстрое выполнение работ в сжатые сроки</li>
-    <li>Доступные цены и гибкая система скидок</li>
-</ul>
+{% if company %}
+    {% if company.logo %}
+        <img src="{{ company.logo.url }}" alt="Логотип" style="height:60px;">
+    {% endif %}
+    <h3>{{ company.name }}</h3>
+    <p>{{ company.description }}</p>
+    {% if company.video_url %}
+        {% if 'youtube' in company.video_url or 'youtu.be' in company.video_url %}
+            <div>
+                <iframe width="560" height="315" src="{{ company.video_url }}" title="company video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        {% else %}
+            <div style="margin:10px 0;">
+                <video controls width="560">
+                    <source src="{{ company.video_url }}" type="video/mp4">
+                    Ваш браузер не поддерживает видео.
+                </video>
+            </div>
+        {% endif %}
+    {% endif %}
+    <h4>История</h4>
+    <pre style="white-space:pre-wrap">{{ company.history }}</pre>
+    <h4>Реквизиты</h4>
+    <pre style="white-space:pre-wrap">{{ company.requisites }}</pre>
+    <h4>Сертификат</h4>
+    <pre style="white-space:pre-wrap">{{ company.certificate_text }}</pre>
+{% else %}
+    <p>Информация о компании пока не добавлена.</p>
+{% endif %}
+
+<h3>Партнёры</h3>
+{% if partners %}
+    {% for p in partners %}
+        <a href="{{ p.website_url }}" target="_blank" style="margin-right:10px;display:inline-block;">
+            {% if p.logo %}
+                <img src="{{ p.logo.url }}" alt="{{ p.name }}" style="height:40px;display:block;">
+            {% endif %}
+            <small>{{ p.name }}</small>
+        </a>
+    {% endfor %}
+{% else %}
+    <p>Партнёры не добавлены.</p>
+{% endif %}
 {% endblock content %}

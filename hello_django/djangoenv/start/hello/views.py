@@ -19,10 +19,9 @@ from .models import Order
 from datetime import date, timedelta
 from django.core.exceptions import PermissionDenied
 from functools import wraps
-logging.basicConfig(level=logging.INFO, filename="my_log.log",filemode="a",format="%(asctime)s %(levelname)s %(message)s")
+
 
 def stats(request):
-    print("HERE1")
     # Получаем дату 7 дней назад от сегодня
     today = datetime.date.today()
     seven_days_ago = today - datetime.timedelta(days=6)  # Чтобы считать 7 дней включая сегодня
@@ -56,13 +55,126 @@ def stats(request):
     graph_path = os.path.join(settings.MEDIA_ROOT, 'orders_last_7_days.png')
     os.makedirs(settings.MEDIA_ROOT, exist_ok=True)
     plt.savefig(graph_path)
-    plt.close(fig)  # Закрываем фигуру, чтобы не держать память
+    plt.close(fig)
 
     context = {
-    'plot_url': settings.MEDIA_URL + 'orders_last_7_days.png'
+        'plot_url': settings.MEDIA_URL + 'orders_last_7_days.png'
     }
-    print("HERE2")
     return render(request, 'stats.html', context)
+
+# Вспомогательные функции корзины
+
+def _get_cart(session):
+    return session.setdefault('cart', {})
+
+
+def _save_session(session):
+    session.modified = True
+
+
+# Детальная страница услуги
+
+def service_detail(request, service_id):
+    service = Service.objects.get(id=service_id)
+    return render(request, 'service_detail.html', { 'service': service })
+
+
+# Корзина
+
+def cart_view(request):
+    cart = _get_cart(request.session)
+    service_ids = [int(sid) for sid in cart.keys()]
+    services = Service.objects.filter(id__in=service_ids)
+    items = []
+    total = 0
+    for s in services:
+        qty = int(cart.get(str(s.id), 0))
+        line_total = s.price * qty
+        total += line_total
+        items.append({ 'service': s, 'qty': qty, 'line_total': line_total })
+    return render(request, 'cart.html', { 'items': items, 'total': total })
+
+
+def cart_add(request, service_id):
+    cart = _get_cart(request.session)
+    cart[str(service_id)] = int(cart.get(str(service_id), 0)) + 1
+    _save_session(request.session)
+    return redirect('cart')
+
+
+def cart_remove(request, service_id):
+    cart = _get_cart(request.session)
+    cart.pop(str(service_id), None)
+    _save_session(request.session)
+    return redirect('cart')
+
+
+def cart_increase(request, service_id):
+    cart = _get_cart(request.session)
+    cart[str(service_id)] = int(cart.get(str(service_id), 0)) + 1
+    _save_session(request.session)
+    return redirect('cart')
+
+
+def cart_decrease(request, service_id):
+    cart = _get_cart(request.session)
+    current = int(cart.get(str(service_id), 0))
+    if current > 1:
+        cart[str(service_id)] = current - 1
+    else:
+        cart.pop(str(service_id), None)
+    _save_session(request.session)
+    return redirect('cart')
+
+
+# Оплата (заглушка)
+
+def checkout_view(request):
+    # Доступ только авторизованному клиенту
+    if request.session.get('user_type') != 'client' or not request.session.get('user_id'):
+        return redirect('login')
+    client_id = int(request.session['user_id'])
+
+    if request.method == 'POST':
+        unpaid_qs = Order.objects.filter(client_id=client_id, is_paid=False)
+        total = sum(unpaid_qs.values_list('whole_price', flat=True))
+        now_dt = datetime.datetime.now()
+        paid_count = unpaid_qs.update(is_paid=True, paid_at=now_dt)
+        return render(request, 'checkout.html', { 'paid': True, 'paid_count': paid_count, 'total': total })
+
+    unpaid_orders = Order.objects.filter(client_id=client_id, is_paid=False).order_by('-ordering_time')
+    total = sum(o.whole_price for o in unpaid_orders)
+    return render(request, 'checkout.html', { 'paid': False, 'total': total, 'orders': unpaid_orders })
+
+
+# Обновлённая страница О компании — из БД
+
+def about_company(request):
+    company = CompanyInfo.objects.first()
+    if company is None:
+        company = CompanyInfo.objects.create()
+    if not company.certificate_text:
+        company.certificate_text = (
+            "СВИДЕТЕЛЬСТВО\n\n"
+            "о предоставлении услуг автосервиса\n\n"
+            "г. [Город]\n\"[Дата]\"\n\n"
+            "Настоящим удостоверяется, что\n\n"
+            "Автосервис \"[Название компании]\"\n"
+            "(ИНН [номер], ОГРН [номер])\n\n"
+            "внесен в реестр сервисных организаций и имеет право оказывать услуги по:\n\n"
+            "техническому обслуживанию автомобилей,\n\n"
+            "диагностике и ремонту,\n\n"
+            "гарантийному и постгарантийному обслуживанию.\n\n"
+            "Регистрационный номер: [XXXX]\n\n"
+            "Подпись руководителя _____________\n"
+            "М.П."
+        )
+        company.save()
+    partners = PartnerCompany.objects.all()
+    return render(request, "about_company.html", { "company": company, "partners": partners })
+
+
+# Обновление главной для партнёров/баннеров
 
 def main(request):
     if request.method == "POST":
@@ -76,28 +188,14 @@ def main(request):
     user_id = request.session.get('user_id')
     user_name = request.session.get('user_name')
     
-    url = "https://catfact.ninja/fact"
-    response = requests.get(url).json()
-
-    # Получаем прямую ссылку на картинку кота через TheCatAPI
-    cat_response = requests.get("https://api.thecatapi.com/v1/images/search").json()
-    cat_img_url = cat_response[0]["url"]
-
-    article = Article()
-    article.text = response["fact"]
-    article.img_url = cat_img_url
-    article.title = f"Random Cat Fact - {datetime.datetime.now()}"
-    
-    try:
-        article.save()
-        logging.info(f"{article.title} is saved.")
-    except:
-        logging.warning(f"{article.title} cannot be saved.")
-
+    # removed: external cat fact/article auto-generation
     article = Article.objects.order_by("created_at").last()
 
-    # Получение текущей даты для пользователя и UTC
     utc_now = datetime.datetime.now(tz=pytz.utc)
+
+    partners = PartnerCompany.objects.all()
+    banners = Banner.objects.filter(is_active=True).order_by('sort_order')
+    company = CompanyInfo.objects.first()
 
     return render(request, "main.html", {
         "services" : services,
@@ -106,7 +204,10 @@ def main(request):
         "utc_now" : utc_now.strftime('%d/%m/%Y %H:%M:%S'),
         "user_type": user_type,
         "user_id": user_id,
-        "user_name": user_name
+        "user_name": user_name,
+        "partners": partners,
+        "banners": banners,
+        "company": company,
     })
 
 
@@ -195,13 +296,6 @@ def statisticsv(request):
 
     return render(request, "statistics.html", context)
 
-def about_company(request):
-    return render(request, "about_company.html")
-
-def contacts(request):
-    return render(request, "contacts.html", {"masters" : Master.objects.all()})
-
-#сортировка
 def news(request):
     artcs = Article.objects.all()
     if request.method == "POST":
@@ -212,6 +306,39 @@ def news(request):
             artcs = Article.objects.order_by("created_at")
         return render(request, "news.html", {"articles" : artcs})
     return render(request, "news.html", {"articles" : artcs})
+
+
+def news_detail(request, article_id):
+    article = Article.objects.get(id=article_id)
+    return render(request, "news_detail.html", {"article": article})
+
+
+def terms(request):
+    terms = Term.objects.order_by('-created_at')
+    return render(request, "terms.html", {"terms": terms})
+
+
+def term_detail(request, term_id):
+    term = Term.objects.get(id=term_id)
+    return render(request, "term_detail.html", {"term": term})
+
+
+def contacts(request):
+    staff = StaffMember.objects.all()
+    if not staff.exists():
+        masters = Master.objects.all()
+        fallback = []
+        for m in masters:
+            fallback.append({
+                'name': m.name,
+                'role': m.specialization.name if m.specialization_id else 'Сотрудник',
+                'description': '',
+                'phone': m.phone_number,
+                'email': '',
+                'photo': m.photo,
+            })
+        return render(request, "contacts.html", {"masters": fallback})
+    return render(request, "contacts.html", {"masters" : staff})
 
 def politics(request):
     return render(request, "politics.html")
@@ -394,7 +521,8 @@ def clientsview(request, client_id):
         "car_models" : CarModel.objects.all(), 
         "car_types" : CarType.objects.all(),
         "proms" : Promocode.objects.all(),
-        "reviews" : Review.objects.filter(user = client).order_by("date").reverse()
+        "reviews" : Review.objects.filter(user = client).order_by("date").reverse(),
+        "orders" : Order.objects.filter(client=client).order_by('-ordering_time')
     })
 
 
@@ -528,19 +656,6 @@ def deletereview(request, client_id, review_id):
     review.delete()
     return redirect('client', client_id=client_id)
 
-def recreate_articles_with_cats():
-    from hello.models import Article
-    import requests, datetime, logging
-    Article.objects.all().delete()
-    for _ in range(5):
-        fact = requests.get("https://catfact.ninja/fact").json()["fact"]
-        cat_img_url = requests.get("https://api.thecatapi.com/v1/images/search").json()[0]["url"]
-        article = Article()
-        article.text = fact
-        article.img_url = cat_img_url
-        article.title = f"Random Cat Fact - {datetime.datetime.now()}"
-        article.save()
-        logging.info(f"{article.title} is saved.")
 
 def logout(request):
     # Очищаем все данные сессии

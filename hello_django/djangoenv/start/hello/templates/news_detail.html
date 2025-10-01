@@ -1,0 +1,16 @@
+{% extends "menu.html" %}
+{% block title %}{{ article.title }}{% endblock title %}
+{% block header %}{{ article.title }}{% endblock header %}
+
+{% block content %}
+<article itemscope itemtype="http://schema.org/Article">
+    <meta itemprop="url" content="{{ request.build_absolute_uri }}">
+    {% if article.img_url %}
+        <img src="{{ article.img_url }}" width="300" alt="картинка статьи" itemprop="image">
+    {% endif %}
+    <p><time itemprop="datePublished" datetime="{{ article.created_at|date:'c' }}">{{ article.created_at|date:'d.m.Y H:i' }}</time></p>
+    <div itemprop="articleBody">
+        <p>{{ article.text }}</p>
+    </div>
+</article>
+{% endblock content %} 

@@ -14,11 +14,16 @@
 </form>
 {% if articles %}
     {% for article in articles %}
-    <div>
-        <h2>{{ article.title }}</h2>
-        <img src="{{ article.img_url }}" width="150" height="150">
-        <p>{{ article.text }}</p>
-    </div>
+    <article itemscope itemtype="http://schema.org/Article">
+        <h2 itemprop="name headline">{{ article.title }}</h2>
+        {% if article.img_url %}
+            <img src="{{ article.img_url }}" width="150" height="150" alt="картинка статьи" itemprop="image">
+        {% endif %}
+        <time itemprop="datePublished" datetime="{{ article.created_at|date:'c' }}">{{ article.created_at|date:'d.m.Y' }}</time>
+        <p itemprop="description">{{ article.summary|default:article.text|truncatechars:160 }}</p>
+        <meta itemprop="url" content="{% url 'news_detail' article.id %}">
+        <p><a href="{% url 'news_detail' article.id %}" itemprop="mainEntityOfPage">Читать далее</a></p>
+    </article>
     {% endfor%}
 {% else %}
 <p>Нет доступных новостей.</p>

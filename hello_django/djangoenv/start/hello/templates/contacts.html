@@ -1,21 +1,48 @@
 {% extends "menu.html" %}
 {% block title %}Контакты{% endblock title %}
-{% block header %}Наши сотрудники{% endblock header %}
+{% block header %}Команда и контакты{% endblock header %}
 
 {% block content %}
-{% for master in masters %}
-<div>
-    {% if master.photo %}
-    <img src="{{ master.photo.url }}" width="150" height="150">
+<section>
+    {% if masters %}
+        <div>
+            {% for m in masters %}
+                <figure style="display:inline-block;margin:10px;">
+                    {% if m.photo %}
+                        <img src="{{ m.photo.url }}" alt="{{ m.name }}" style="width:150px;height:150px;object-fit:cover;">
+                    {% endif %}
+                    <figcaption>
+                        <strong>{{ m.name }}</strong><br>
+                        <em>{{ m.role }}</em>
+                    </figcaption>
+                </figure>
+            {% endfor %}
+        </div>
+
+        <h3>Контактная информация</h3>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th id="th-name">Сотрудник</th>
+                    <th id="th-role">Роль</th>
+                    <th id="th-phone">Телефон</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for m in masters %}
+                <tr>
+                    <td headers="th-name">{{ m.name }}</td>
+                    <td headers="th-role">{{ m.role }}</td>
+                    <td headers="th-phone">
+                        {% if m.phone %}<a href="tel:{{ m.phone }}">{{ m.phone }}</a>{% endif %}
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
     {% else %}
-    <img src="https://avatars.mds.yandex.net/i?id=d97ce0a89d90bf016b1cb96a6e86114d3e3c3920-12529201-images-thumbs&n=13" width="150" height="150">
+        <p>Сотрудники не добавлены.</p>
     {% endif %}
-    <h3>{{ master.name }}</h3>
-    <p>Возраст: {{ master.age }}</p>
-    <p>Телефон: {{ master.phone_number }}</p>
-    <p>Специализация: {{ master.specialization.name }}</p>
-    <p>Количество выполненных заказов: {{ master.order_count }}</p>
-</div>
-{% endfor %}
+</section>
 {% endblock content %}
 

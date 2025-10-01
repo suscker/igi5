@@ -17,19 +17,20 @@
     <p>Итоговая сумма заказов: {{ client.result_price }}</p>
     <a href="editclient/{{client.id}}">Редактировать информацию о клиенте</a><br><br>
 </div>
-<h2>Список заказов</h2> 
+<h2 id="orders">Список заказов</h2> 
 <a href="createorder/{{client.id}}">Сделать заказ</a>
-{% if client.orders.all %}
+{% if orders %}
 <table> 
     <thead> 
         <tr> 
-            <th>Номер заказа</th> <th>Мастер</th> <th>Услуга</th> <th>Время заказа</th> <th>Общая стоимость</th> 
+            <th>Номер заказа</th> <th>Мастер</th> <th>Услуга</th> <th>Время заказа</th> <th>Общая стоимость</th> <th>Статус оплаты</th>
         </tr> 
     </thead> 
     <tbody> 
-        {% for order in client.orders.all %} 
+        {% for order in orders %} 
         <tr> 
             <td>{{ order.id }}</td> <td>{{ order.master.name }}</td> <td>{{ order.service.name }}</td> <td>{{ order.ordering_time }}</td> <td>{{ order.whole_price }}</td> 
+            <td>{% if order.is_paid %}Оплачен {{ order.paid_at|date:"d.m.Y H:i" }}{% else %}Не оплачен{% endif %}</td>
         </tr> 
         {% endfor %} 
     </tbody> 
@@ -37,7 +38,7 @@
 {% else %}
 <p>У клиента пока нет заказов.</p>
 {% endif %}
-<h1>Промокоды</h1>
+<h1 id="promocodes">Промокоды</h1>
 {% if proms %}
 <table> 
     <thead> 
@@ -56,7 +57,7 @@
 {% else %}
 <p>Действующих промокодов нет.</p>
 {% endif %}
-<h1>Отзывы, которые вы оставили:</h1>
+<h1 id="reviews">Отзывы, которые вы оставили:</h1>
 <a href="createreview/{{client.id}}">Добавить отзыв</a><br><br>
 {% for review in reviews %}
 <div>

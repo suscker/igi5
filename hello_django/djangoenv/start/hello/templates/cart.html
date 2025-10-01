@@ -1,0 +1,43 @@
+{% extends "menu.html" %}
+{% block title %}Корзина{% endblock title %}
+{% block header %}Корзина заказа{% endblock header %}
+
+{% block content %}
+{% if items %}
+<table>
+    <thead>
+        <tr>
+            <th>Услуга</th>
+            <th>Цена</th>
+            <th>Кол-во</th>
+            <th>Сумма</th>
+            <th>Действия</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for item in items %}
+        <tr>
+            <td>{{ item.service.name }}</td>
+            <td>{{ item.service.price }}</td>
+            <td>{{ item.qty }}</td>
+            <td>{{ item.line_total }}</td>
+            <td>
+                <a href="{% url 'cart_increase' item.service.id %}">+</a>
+                <a href="{% url 'cart_decrease' item.service.id %}">-</a>
+                <a href="{% url 'cart_remove' item.service.id %}">Удалить</a>
+            </td>
+        </tr>
+        {% endfor %}
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="3" style="text-align:right"><strong>Итого:</strong></td>
+            <td colspan="2"><strong>{{ total }}</strong></td>
+        </tr>
+    </tfoot>
+</table>
+<p><a href="{% url 'checkout' %}">Оплатить</a></p>
+{% else %}
+<p>Корзина пуста.</p>
+{% endif %}
+{% endblock content %} 

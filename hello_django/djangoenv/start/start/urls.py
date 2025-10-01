@@ -26,6 +26,9 @@ urlpatterns = [
     path('about_company/',views.about_company),
     path('contacts/',views.contacts),
     path('news/',views.news),
+    path('news/<int:article_id>', views.news_detail, name='news_detail'),
+    path('terms/',views.terms),
+    path('terms/<int:term_id>', views.term_detail, name='term_detail'),
     path('politics/',views.politics),
     path('promocodes/',views.promocodes),
     path('qa/',views.qa),
@@ -50,6 +53,16 @@ urlpatterns = [
     re_path(r'^(login|register)/client/editreview/(?P<client_id>\d+)/(?P<review_id>\d+)', views.editreview, name="editreview"),
     re_path(r'^(login|register)/client/deletereview/(?P<client_id>\d+)/(?P<review_id>\d+)', views.deletereview, name="deletereview"),
     re_path(r'^(login|register)/client/createreview/(?P<client_id>\d+)', views.createreview, name="createreview"),
+
+    path('service/<int:service_id>', views.service_detail, name='service_detail'),
+
+    path('cart', views.cart_view, name='cart'),
+    path('cart/add/<int:service_id>', views.cart_add, name='cart_add'),
+    path('cart/remove/<int:service_id>', views.cart_remove, name='cart_remove'),
+    path('cart/increase/<int:service_id>', views.cart_increase, name='cart_increase'),
+    path('cart/decrease/<int:service_id>', views.cart_decrease, name='cart_decrease'),
+
+    path('checkout', views.checkout_view, name='checkout'),
 
 ]
 if settings.DEBUG:

@@ -1,40 +1,55 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Автосервис: услуги, новости, контакты, отзывы, акции и партнёры.">
+    <meta name="keywords" content="автосервис, ремонт, услуги, запчасти, автотовары">
+    {% load static %}
+    <link rel="icon" href="{% static 'favicon.ico' %}" type="image/x-icon">
     <title>{% block title %}Default title{% endblock title %}</title>
 </head>
 <body>
-    <h1>{% block header %}{% endblock header %}</h1>
-    <h2>Навигация</h2>
-    <ul>
-        <li><a href="/">Главная</a></li>
-        <li><a href="/about_company">О компании</a></li>
-        <li><a href="/news">Новости</a></li>
-        <li><a href="/qa">Вопросы-ответы</a></li>
-        <li><a href="/contacts">Контакты</a></li>
-        <li><a href="/politics">Политика конфиденциальности</a></li>
-        <li><a href="/admin">Админ</a></li>
-        <li><a href="/vacancies">Вакансии</a></li>
-        <li><a href="/reviews">Отзывы</a></li>
-        <li><a href="/promocodes">Промокоды и купоны</a></li>
-        <li><a href="/statistics">Статистика</a></li>
-
-    </ul>
-    <div>
-        {% if user_type %}
-            <p>Добро пожаловать, {{ user_name }}!</p>
-            {% if user_type == 'client' %}
-                <a href="/login/client/{{ user_id }}">Личный кабинет</a>
+    <header>
+        <h1>{% block header %}{% endblock header %}</h1>
+        <nav aria-label="Основная навигация">
+            <ul>
+                <li><a href="/">Главная</a></li>
+                <li><a href="/about_company">О компании</a></li>
+                <li><a href="/news">Новости</a></li>
+                <li><a href="/terms">Словарь</a></li>
+                <li><a href="/qa">Вопросы-ответы</a></li>
+                <li><a href="/contacts">Контакты</a></li>
+                <li><a href="/politics">Политика конфиденциальности</a></li>
+                <li><a href="/admin">Админ</a></li>
+                <li><a href="/vacancies">Вакансии</a></li>
+                <li><a href="/reviews">Отзывы</a></li>
+                <li><a href="/promocodes">Промокоды и купоны</a></li>
+                <li><a href="/statistics">Статистика</a></li>
+                <li><a href="/cart">Корзина</a></li>
+                <li><a href="/checkout">Оплата</a></li>
+            </ul>
+        </nav>
+        <div>
+            {% if user_type %}
+                <p>Добро пожаловать, {{ user_name }}!</p>
+                {% if user_type == 'client' %}
+                    <a href="/login/client/{{ user_id }}">Личный кабинет</a>
+                {% else %}
+                    <a href="/login/master/{{ user_id }}">Личный кабинет</a>
+                {% endif %}
+                <a href="/logout">Выйти</a>
             {% else %}
-                <a href="/login/master/{{ user_id }}">Личный кабинет</a>
+                <a href="/login">Войти</a> 
+                <a href="/register">Зарегистрироваться</a> 
             {% endif %}
-            <a href="/logout">Выйти</a>
-        {% else %}
-            <a href="/login">Войти</a> 
-            <a href="/register">Зарегистрироваться</a> 
-        {% endif %}
-    </div>
-    <div>{% block content%}{% endblock content %}</div>
+        </div>
+    </header>
+    <main>
+        <div>{% block content%}{% endblock content %}</div>
+    </main>
+    <footer>
+        <small>&copy; {{ user_now|date:'Y' }} Автосервис. Все права защищены.</small>
+    </footer>
 </body>
 </html>

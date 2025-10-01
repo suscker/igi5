@@ -103,6 +103,8 @@ class Part(models.Model):
 class Promocode(models.Model):
     name = models.CharField(max_length=15)
     discount = models.PositiveSmallIntegerField()
+    is_active = models.BooleanField(default=True)
+    expires_at = models.DateField(blank=True, null=True)
 
     def __str__(self):
         return self.name
@@ -114,6 +116,8 @@ class Order(models.Model):
     whole_price = models.PositiveIntegerField()
     ordering_time = models.DateTimeField()
     service = models.ForeignKey(Service, related_name="orders", on_delete=models.DO_NOTHING)
+    is_paid = models.BooleanField(default=False)
+    paid_at = models.DateTimeField(blank=True, null=True)
 
     def CountPrice(self, prom = None, parts = None):
         price = self.service.price
@@ -153,7 +157,62 @@ class Review(models.Model):
 class Article(models.Model):
     title = models.CharField(max_length=40)
     text = models.TextField()
-    img_url = models.CharField(max_length=500, default='')
+    summary = models.CharField(max_length=200, default='', blank=True)
+    img_url = models.CharField(max_length=500, default='', blank=True)
     created_at = models.DateTimeField(auto_now_add=True)
+
+
+class PartnerCompany(models.Model):
+    name = models.CharField(max_length=100)
+    website_url = models.URLField()
+    logo = models.ImageField(upload_to='partners/', blank=True, null=True)
+
+    def __str__(self):
+        return self.name
+
+
+class CompanyInfo(models.Model):
+    name = models.CharField(max_length=100, default='Наша компания')
+    description = models.TextField(blank=True)
+    video_url = models.URLField(blank=True)
+    logo = models.ImageField(upload_to='company/', blank=True, null=True)
+    history = models.TextField(blank=True)
+    requisites = models.TextField(blank=True)
+    certificate_text = models.TextField(blank=True, default='СВИДЕТЕЛЬСТВО\n\nо предоставлении услуг автосервиса\n\nг. [Город]\n"[Дата]"\n\nНастоящим удостоверяется, что\n\nАвтосервис "[Название компании]"\n(ИНН [номер], ОГРН [номер])\n\nвнесен в реестр сервисных организаций и имеет право оказывать услуги по:\n\nтехническому обслуживанию автомобилей,\n\nдиагностике и ремонту,\n\nгарантийному и постгарантийному обслуживанию.\n\nРегистрационный номер: [XXXX]\n\nПодпись руководителя _____________\nМ.П.')
+
+    def __str__(self):
+        return self.name
+
+
+class Term(models.Model):
+    term = models.CharField(max_length=100)
+    definition = models.TextField()
+    created_at = models.DateField(default=now)
+
+    def __str__(self):
+        return self.term
+
+
+class StaffMember(models.Model):
+    name = models.CharField(max_length=100)
+    role = models.CharField(max_length=100)
+    description = models.TextField(blank=True)
+    phone = models.CharField(max_length=30, blank=True)
+    email = models.EmailField(blank=True)
+    photo = models.ImageField(upload_to='staff/', blank=True, null=True)
+
+    def __str__(self):
+        return f"{self.name} — {self.role}"
+
+
+class Banner(models.Model):
+    image = models.ImageField(upload_to='banners/')
+    alt_text = models.CharField(max_length=200, blank=True, default='')
+    target_url = models.URLField(blank=True)
+    is_active = models.BooleanField(default=True)
+    sort_order = models.PositiveIntegerField(default=0)
+
+    def __str__(self):
+        return self.alt_text or f"Banner #{self.pk}"
 
 
